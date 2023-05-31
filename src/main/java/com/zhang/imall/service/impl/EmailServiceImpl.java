@@ -12,8 +12,7 @@ import org.springframework.mail.javamail.MimeMessageHelper;
 import org.springframework.stereotype.Service;
 import org.springframework.ui.freemarker.FreeMarkerTemplateUtils;
 import org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer;
-import org.thymeleaf.TemplateEngine;
-import org.thymeleaf.context.Context;
+
 
 import javax.mail.internet.MimeMessage;
 import java.util.HashMap;
@@ -32,8 +31,6 @@ public class EmailServiceImpl implements EmailService {
     //发送邮件
     @Autowired
     private JavaMailSender javaMailSender;
-    @Autowired
-    private  TemplateEngine templateEngine;
     @Autowired
     private FreeMarkerConfigurer freeMarkerConfigurer;
 
