@@ -171,7 +171,7 @@ public class UserController {
         return ApiRestResponse.success();
     }
 
-    @ApiOperation("发送Freemarker模板Email验证码")
+    @ApiOperation("发送Freemarker模板Email的6位验证码")
     @PostMapping("/sentFreemarkerEmail")
     @ResponseBody
     public ApiRestResponse sentFreemarkerEmail(String emailAddress) {
