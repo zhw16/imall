@@ -174,3 +174,34 @@
 [2023-06-02 15:20:43:609] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[];
 [2023-06-02 15:20:43:645] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:41ms
 [2023-06-02 15:26:34:306] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[2023-06-02 15:26:39:002] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting ImallApplication on SMK with PID 7228 (D:\Projects\imall\target\classes started by 27850 in D:\Projects\imall)
+[2023-06-02 15:26:39:030] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[2023-06-02 15:26:39:550] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2023-06-02 15:26:39:552] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[2023-06-02 15:26:39:568] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+[2023-06-02 15:26:39:743] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-02 15:26:40:045] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[2023-06-02 15:26:40:050] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[2023-06-02 15:26:40:051] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2023-06-02 15:26:40:051] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2023-06-02 15:26:40:111] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2023-06-02 15:26:40:111] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1054 ms
+[2023-06-02 15:26:40:887] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2023-06-02 15:26:41:005] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[2023-06-02 15:26:41:353] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[2023-06-02 15:26:41:363] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[2023-06-02 15:26:41:383] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[2023-06-02 15:26:41:601] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: listUsingGET_1
+[2023-06-02 15:26:41:615] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: listUsingGET_2
+[2023-06-02 15:26:41:683] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[2023-06-02 15:26:41:696] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[2023-06-02 15:26:41:697] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started ImallApplication in 2.883 seconds (JVM running for 3.966)
+[2023-06-02 15:26:43:414] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-06-02 15:26:43:415] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[2023-06-02 15:26:43:420] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 5 ms
+[2023-06-02 15:26:53:431] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - URL:http://localhost:8080/excel/analysisPathFile;
+[2023-06-02 15:26:53:431] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:57) - HTTP_METHOD:POST;
+[2023-06-02 15:26:53:432] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:59) - IP:0:0:0:0:0:0:0:1;
+[2023-06-02 15:26:53:433] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:61) - CLASS_INFO:com.zhang.imall.controller.ExcelController.analysisPathFile;
+[2023-06-02 15:26:53:434] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[];
+[2023-06-02 15:26:53:469] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:40ms
