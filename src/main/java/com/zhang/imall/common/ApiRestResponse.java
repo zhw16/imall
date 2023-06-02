@@ -67,7 +67,10 @@ public class ApiRestResponse<T> {
     public static <T> ApiRestResponse<T> error(ImallExceptionEnum exceptionEnum) {
         return new ApiRestResponse<>(exceptionEnum.getCode(), exceptionEnum.getMsg());
     }
-
+    //使用自定义的错误枚举类
+    public static <T> ApiRestResponse<T> error(ImallExceptionEnum exceptionEnum,String msg) {
+        return new ApiRestResponse<>(exceptionEnum.getCode(), msg);
+    }
     @Override//toString()
     public String toString() {
         return "ApiRestResponse{" +

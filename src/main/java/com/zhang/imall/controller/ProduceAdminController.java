@@ -97,4 +97,5 @@ public class ProduceAdminController {
         PageInfo pageInfo = productService.listForAdmin(pageNum, pageSize);
         return ApiRestResponse.success(pageInfo);
     }
+
 }
