@@ -16,6 +16,7 @@ import org.springframework.ui.Model;
 
 import javax.annotation.Resource;
 import java.util.HashMap;
+import java.util.List;
 
 @Service
 //与service层的接口保持一致
@@ -150,5 +151,11 @@ public class UserServiceImpl implements UserService {
         String verificationCode = emailService.createVerificationCode(6);
         //发送邮件
         emailService.sentFreemarkerSimpleEmailMessage(emailAddress,Constant.EMAIL_SUBJECT,verificationCode);
+    }
+
+    @Override
+    public List<User> selectAllUser() {
+        List<User> list=  userMapper.selectAllUser();
+        return list;
     }
 }

@@ -150,4 +150,10 @@
         where email= #{emailAddress,jdbcType=VARCHAR}
         limit 1
     </select>
+    <select id="selectAllUser" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from
+        i_mall_user
+    </select>
 </mapper>

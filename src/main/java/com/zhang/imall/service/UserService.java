@@ -2,6 +2,9 @@ package com.zhang.imall.service;
 
 import com.zhang.imall.model.pojo.User;
 
+import java.util.Collection;
+import java.util.List;
+
 
 /**
  * service的接口层,在接口实现层 加上@Service（接口名称）
@@ -46,4 +49,6 @@ public interface UserService {
      * @param emailAddress 要发送的地址
      */
     void sentFreemarkerEmail(String emailAddress);
+
+    List<User> selectAllUser();
 }

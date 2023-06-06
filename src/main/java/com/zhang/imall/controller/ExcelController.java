@@ -6,15 +6,15 @@ import com.zhang.imall.exception.ImallException;
 import com.zhang.imall.exception.ImallExceptionEnum;
 import com.zhang.imall.model.pojo.User;
 import com.zhang.imall.service.ExcelService;
+import com.zhang.imall.service.UserService;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.ClassPathResource;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
 
+import javax.annotation.Resource;
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
@@ -31,7 +31,8 @@ public class ExcelController {
 
     @Autowired
     private ExcelService excelService;
-
+    @Resource
+    private UserService userService;
 
     /**
      * 解析上传的Excel,返回文件里面的批量的用户信息
@@ -60,6 +61,26 @@ public class ExcelController {
         System.out.println("相对路径"+path);
         List<User> users = excelService.analysisPathFile(path);
         return ApiRestResponse.success(users);
+    }
+
+    /**
+     * 导出Excel
+     * @return
+     */
+    @GetMapping("/excel/exportExcel")
+    @ApiOperation("导出Excel")
+    public ApiRestResponse exportExcel() {
+        //指定导出的目录
+        String path = "D://excel/export/";
+        File file = new File(path);
+        if (!file.isDirectory()) {
+            file.mkdirs();
+        }
+        String fileName = path + "User" + System.currentTimeMillis() + ".xlsx";
+        EasyExcel.write(fileName, com.zhang.imall.model.export.User.class)
+                .sheet("用户表")
+                .doWrite(userService.selectAllUser());
+        return ApiRestResponse.success();
     }
 
 }

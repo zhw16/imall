@@ -4,6 +4,8 @@ import com.zhang.imall.model.pojo.User;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
+
 @Repository
 public interface UserMapper {
     int deleteByPrimaryKey(Integer id);
@@ -26,5 +28,6 @@ public interface UserMapper {
 
     //查询用户的邮箱地址
     User selectOneByEmailAddress(String emailAddress);
-
+    //查询所有用户
+    List<User> selectAllUser();
 }
