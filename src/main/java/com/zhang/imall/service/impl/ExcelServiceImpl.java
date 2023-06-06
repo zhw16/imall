@@ -56,11 +56,12 @@ public class ExcelServiceImpl implements ExcelService {
      */
     @Override
     public List<User> analysisPathFile(String pathName) {
-        List<User> userList = EasyExcel.read(pathName)
+//        List<User> userList = EasyExcel.read("C:/Users/27850/Desktop/user-excel.xlsx")
+        List<User> userList = EasyExcel.read("src/main/resources/user-excel.xlsx")
                 //指定文件类型
                 .excelType(ExcelTypeEnum.XLSX)
                 .head(User.class)
-                .sheet(1)
+                .sheet("Sheet1")
                 .doReadSync();
         return userList;
     }
