@@ -10,6 +10,7 @@ import com.zhang.imall.model.pojo.User;
 import com.zhang.imall.service.ExcelService;
 import com.zhang.imall.service.UserService;
 import io.swagger.annotations.ApiOperation;
+import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -104,8 +105,8 @@ public class ExcelController {
         // 设置响应头，告诉浏览器该文件需要下载而不是直接打开
         response.setHeader("Content-Disposition", "attachment; filename=" + fileName);
 
-        // 创建Excel写入器
-        ExcelWriter excelWriter = EasyExcel.write(response.getOutputStream(), User.class).build();
+        // 创建Excel写入器,指定导出数据格式com.zhang.imall.model.export.User.class
+        ExcelWriter excelWriter = EasyExcel.write(response.getOutputStream(),com.zhang.imall.model.export.User.class).build();
 
         // 写入数据到Excel
         WriteSheet writeSheet = EasyExcel.writerSheet("用户表").build();
@@ -113,9 +114,15 @@ public class ExcelController {
 
         excelWriter.write(userList, writeSheet);
 
+//        // 设置列宽度
+//        Sheet sheet = excelWriter.writeContext().writeSheetHolder().getSheet();
+//        sheet.setColumnWidth(0, 20*256); // 设置第一列的宽度为20个字符
+//        sheet.setColumnWidth(1, 15*256); // 设置第二列的宽度为15个字符
+
         // 关闭Excel写入器
         excelWriter.finish();
     }
+
 
 
 }
