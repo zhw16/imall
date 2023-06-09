@@ -89,7 +89,7 @@ public class ExcelController {
         }
         String date = new SimpleDateFormat("yyyyMMdd").format(new Date());
         String fileName = path + "用户信息" + date + ".xlsx";
-        EasyExcel.write(fileName, com.zhang.imall.model.export.User.class)
+        EasyExcel.write(fileName, User.class)
                 .sheet("用户表")
                 .doWrite(userService.selectAllUser());
         return ApiRestResponse.success();
@@ -106,7 +106,7 @@ public class ExcelController {
         response.setHeader("Content-Disposition", "attachment; filename=" + fileName);
 
         // 创建Excel写入器,指定导出数据格式com.zhang.imall.model.export.User.class
-        ExcelWriter excelWriter = EasyExcel.write(response.getOutputStream(),com.zhang.imall.model.export.User.class).build();
+        ExcelWriter excelWriter = EasyExcel.write(response.getOutputStream(),User.class).build();
 
         // 写入数据到Excel
         WriteSheet writeSheet = EasyExcel.writerSheet("用户表").build();

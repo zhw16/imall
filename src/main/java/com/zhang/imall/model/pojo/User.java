@@ -1,22 +1,44 @@
 package com.zhang.imall.model.pojo;
 
+import com.alibaba.excel.annotation.ExcelIgnore;
+import com.alibaba.excel.annotation.ExcelProperty;
+import com.alibaba.excel.annotation.format.DateTimeFormat;
+import com.alibaba.excel.annotation.write.style.ColumnWidth;
+
 import java.util.Date;
 
 public class User {
+    @ColumnWidth(20)
+    @ExcelProperty("用户id")
     private Integer id;
 
+    @ColumnWidth(20)
+    @ExcelProperty("姓名")
     private String username;
 
+    @ExcelIgnore
     private String password;
 
+    @ColumnWidth(30)
+    @ExcelProperty("签名")
     private String personalizedSignature;
 
+    @ColumnWidth(10)
+    @ExcelIgnore
     private Integer role;
 
+    @ColumnWidth(20)
+    @DateTimeFormat("yyyy-MM-dd hh-mm-ss")
+    @ExcelProperty("创建时间")
     private Date createTime;
 
+    @ColumnWidth(20)
+    @ExcelProperty("更新时间")
+    @DateTimeFormat("yyyy-MM-dd")
     private Date updateTime;
 
+    @ColumnWidth(20)
+    @ExcelProperty("邮箱")
     private String email;
 
     public Integer getId() {
