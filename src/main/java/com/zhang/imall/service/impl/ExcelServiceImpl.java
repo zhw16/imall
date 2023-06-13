@@ -1,6 +1,10 @@
 package com.zhang.imall.service.impl;
 
 import com.alibaba.excel.EasyExcel;
+import com.alibaba.excel.ExcelReader;
+import com.alibaba.excel.context.AnalysisContext;
+import com.alibaba.excel.event.AnalysisEventListener;
+import com.alibaba.excel.read.metadata.ReadSheet;
 import com.alibaba.excel.support.ExcelTypeEnum;
 import com.zhang.imall.common.ApiRestResponse;
 import com.zhang.imall.exception.ImallException;
@@ -12,6 +16,7 @@ import org.springframework.web.multipart.MultipartFile;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -65,4 +70,43 @@ public class ExcelServiceImpl implements ExcelService {
                 .doReadSync();
         return userList;
     }
+
+
+
+    /**
+     * 解析上传的Excel
+     * 解析一行处理一行数据
+     * @param multipartFile 上传的excel
+     * @return 解析后的用户信息列表
+     */
+    public List<User> analysisUploadFile1(MultipartFile multipartFile) {
+        List<User> userList = new ArrayList<>();
+        try {
+            InputStream inputStream = multipartFile.getInputStream();
+            ExcelReader excelReader = EasyExcel.read(inputStream).build();
+            ReadSheet readSheet = EasyExcel.readSheet(0)
+                    .head(User.class)
+                    .registerReadListener(new AnalysisEventListener<User>() {
+                        @Override
+                        public void invoke(User user, AnalysisContext context) {
+                            // 处理每一行数据
+                            userList.add(user);
+                        }
+                        @Override
+                        public void doAfterAllAnalysed(AnalysisContext context) {
+                            // 解析完成后的回调方法，可以在这里进行后续操作
+                        }
+                    }).build();
+            excelReader.read(readSheet);
+            excelReader.finish();
+        } catch (IOException e) {
+            throw new ImallException(ImallExceptionEnum.READ_ERROR, "读文件失败");
+        }
+        return userList;
+    }
+
+
+
+
+
 }

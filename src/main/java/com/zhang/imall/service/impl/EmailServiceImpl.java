@@ -5,6 +5,9 @@ import com.zhang.imall.exception.ImallException;
 import com.zhang.imall.exception.ImallExceptionEnum;
 import com.zhang.imall.service.EmailService;
 import freemarker.template.Template;
+import org.redisson.Redisson;
+import org.redisson.api.RBucket;
+import org.redisson.api.RedissonClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
@@ -17,6 +20,7 @@ import org.springframework.web.servlet.view.freemarker.FreeMarkerConfigurer;
 import javax.mail.internet.MimeMessage;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.concurrent.TimeUnit;
 
 
 /**
@@ -58,10 +62,9 @@ public class EmailServiceImpl implements EmailService {
 
     /**
      * 发送模板邮件
-
      */
     @Override
-    public void sentFreemarkerSimpleEmailMessage(String to, String subject,String verificationCode) {
+    public void sentFreemarkerSimpleEmailMessage(String to, String subject, String verificationCode) {
         try {
             MimeMessage message = javaMailSender.createMimeMessage();
             MimeMessageHelper helper = new MimeMessageHelper(message, true);
@@ -72,7 +75,7 @@ public class EmailServiceImpl implements EmailService {
             // 生成模板内容
             Template template = freeMarkerConfigurer.getConfiguration().getTemplate("verificationCode.ftl");
             Map<String, Object> model = new HashMap<>();
-            model.put("verificationCode",verificationCode);
+            model.put("verificationCode", verificationCode);
             model.put("name", to);
             String content = FreeMarkerTemplateUtils.processTemplateIntoString(template, model);
             helper.setText(content, true);
@@ -95,5 +98,33 @@ public class EmailServiceImpl implements EmailService {
         return String.format("%0" + num + "d", (int) (Math.random() * Math.pow(10, num)));
     }
 
+    /**
+     * 保存用户验证码到redis
+     *
+     * @param email            邮箱
+     * @param verificationCode 验证码
+     * @return 保存结果
+     */
+    public Boolean saveEmailToRedis(String email, String verificationCode) {
+        //创建 RedissonClient 对象，这是 Redisson 客户端库的入口点。
+        RedissonClient redissonClient = Redisson.create();
+        //通过 RedissonClient 对象获取一个Bucket（键值对），这里使用用户的 email 作为键。
+        RBucket<String> bucket = redissonClient.getBucket(email);
+        //检查 Bucket 是否存在，即检查 Redis 中是否已经存在对应的键。
+        boolean exists = bucket.isExists();
+        if (!exists) {//不存在，使用用户的 email 作为键，存入中验证码，设置过期时间是60秒
+            bucket.set(verificationCode, 60, TimeUnit.SECONDS);
+            return true;
+        }
+        return false;
+    }
 
+
+    public static void main(String[] args) {
+        EmailServiceImpl emailService = new EmailServiceImpl();
+        for (int i = 0; i < 100; i++) {
+            String verificationCode = emailService.createVerificationCode(6);
+            System.out.println(verificationCode);
+        }
+    }
 }

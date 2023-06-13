@@ -179,4 +179,7 @@ public class UserController {
         userService.sentFreemarkerEmail(emailAddress);
         return ApiRestResponse.success();
     }
+
+
+
 }
