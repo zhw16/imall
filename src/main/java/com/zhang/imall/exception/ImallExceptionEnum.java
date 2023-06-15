@@ -41,7 +41,7 @@ public enum ImallExceptionEnum {
     ORDER_STATUS_ERROR(10053, "订单状态异常"),
     NOT_YOUR_ORDER(10054, "此订单不是你的订单"),
     EMAIL_SENT_ERROR(10060, "邮件发送失败"),
-    READ_ERROR(10070, "读操作失败");
+    READ_ERROR(10070, "读操作失败"), EMAIL_HAS_BEEN_SENT(10080,"邮件已发送" ), EMAIL_CHECKED_ERROR(10081,"邮件验证码校验失败" );
 
     //异常码
     Integer code;

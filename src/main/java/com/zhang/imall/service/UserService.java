@@ -51,4 +51,10 @@ public interface UserService {
     void sentFreemarkerEmail(String emailAddress);
 
     List<User> selectAllUser();
+
+    /**
+     * 发送free marker模板短信，并保存到redis
+     * @param emailAddress
+     */
+    void sentFreemarkerEmailAndSaveRedis(String emailAddress);
 }

@@ -1,0 +1,505 @@
+[2023-06-08 08:54:35:529] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - URL:http://localhost:8080/excel/exportExcel;
+[2023-06-08 08:54:35:531] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:57) - HTTP_METHOD:GET;
+[2023-06-08 08:54:35:531] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:59) - IP:0:0:0:0:0:0:0:1;
+[2023-06-08 08:54:35:531] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:61) - CLASS_INFO:com.zhang.imall.controller.ExcelController.exportExcel;
+[2023-06-08 08:54:35:531] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[];
+[2023-06-08 08:54:35:541] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@39547c4b,null
+[2023-06-08 08:54:35:542] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@e747bd82,null
+[2023-06-08 08:54:35:544] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@c5cdd045,null
+[2023-06-08 08:54:35:545] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@96caf36,null
+[2023-06-08 08:54:35:546] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@6346d7c,null
+[2023-06-08 08:54:35:546] [INFO] - com.alibaba.excel.util.StyleUtil.buildDataFormat(StyleUtil.java:131) - create new data fromat:com.alibaba.excel.metadata.data.DataFormatData@d234dc42
+[2023-06-08 08:54:35:546] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@f9502bc,null
+[2023-06-08 08:54:35:547] [INFO] - com.alibaba.excel.util.StyleUtil.buildDataFormat(StyleUtil.java:131) - create new data fromat:com.alibaba.excel.metadata.data.DataFormatData@f67a1982
+[2023-06-08 08:54:35:562] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:34ms
+[2023-06-08 08:54:35:564] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:76) - RESPONSE:{"status":10000,"msg":"SUCCESS","data":null}
+[2023-06-08 09:09:32:436] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - URL:http://localhost:8080/excel/exportExcel;
+[2023-06-08 09:09:32:436] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:57) - HTTP_METHOD:GET;
+[2023-06-08 09:09:32:436] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:59) - IP:0:0:0:0:0:0:0:1;
+[2023-06-08 09:09:32:436] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:61) - CLASS_INFO:com.zhang.imall.controller.ExcelController.exportExcel;
+[2023-06-08 09:09:32:437] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[];
+[2023-06-08 09:09:32:447] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@39547c4b,null
+[2023-06-08 09:09:32:447] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@e747bd82,null
+[2023-06-08 09:09:32:449] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@c5cdd045,null
+[2023-06-08 09:09:32:449] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@96caf36,null
+[2023-06-08 09:09:32:450] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@6346d7c,null
+[2023-06-08 09:09:32:450] [INFO] - com.alibaba.excel.util.StyleUtil.buildDataFormat(StyleUtil.java:131) - create new data fromat:com.alibaba.excel.metadata.data.DataFormatData@d234dc42
+[2023-06-08 09:09:32:450] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@f9502bc,null
+[2023-06-08 09:09:32:450] [INFO] - com.alibaba.excel.util.StyleUtil.buildDataFormat(StyleUtil.java:131) - create new data fromat:com.alibaba.excel.metadata.data.DataFormatData@f67a1982
+[2023-06-08 09:09:32:466] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:30ms
+[2023-06-08 09:09:32:469] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:76) - RESPONSE:{"status":10000,"msg":"SUCCESS","data":null}
+[2023-06-08 09:09:56:519] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[2023-06-08 09:09:56:557] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - i_mall - Shutdown initiated...
+[2023-06-08 09:09:56:562] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - i_mall - Shutdown completed.
+[2023-06-08 09:10:01:070] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting ImallApplication on SMK with PID 8400 (D:\Projects\imall\target\classes started by 27850 in D:\Projects\imall)
+[2023-06-08 09:10:01:073] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[2023-06-08 09:10:01:614] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2023-06-08 09:10:01:617] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[2023-06-08 09:10:01:633] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+[2023-06-08 09:10:01:817] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-08 09:10:02:145] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[2023-06-08 09:10:02:150] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[2023-06-08 09:10:02:151] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2023-06-08 09:10:02:151] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2023-06-08 09:10:02:215] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2023-06-08 09:10:02:215] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1114 ms
+[2023-06-08 09:10:03:038] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2023-06-08 09:10:03:145] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[2023-06-08 09:10:03:482] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[2023-06-08 09:10:03:494] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[2023-06-08 09:10:03:514] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[2023-06-08 09:10:03:738] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: listUsingGET_1
+[2023-06-08 09:10:03:751] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: listUsingGET_2
+[2023-06-08 09:10:03:822] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[2023-06-08 09:10:03:834] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[2023-06-08 09:10:03:836] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started ImallApplication in 3.016 seconds (JVM running for 4.336)
+[2023-06-08 09:10:09:214] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-06-08 09:10:09:214] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[2023-06-08 09:10:09:220] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 6 ms
+[2023-06-08 09:10:09:238] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - URL:http://localhost:8080/excel/exportExcel;
+[2023-06-08 09:10:09:238] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:57) - HTTP_METHOD:GET;
+[2023-06-08 09:10:09:238] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:59) - IP:0:0:0:0:0:0:0:1;
+[2023-06-08 09:10:09:239] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:61) - CLASS_INFO:com.zhang.imall.controller.ExcelController.exportExcel;
+[2023-06-08 09:10:09:239] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[];
+[2023-06-08 09:10:09:467] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - i_mall - Starting...
+[2023-06-08 09:10:10:179] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - i_mall - Start completed.
+[2023-06-08 09:10:10:337] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@fac413c6,null
+[2023-06-08 09:10:10:351] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@e747bd82,null
+[2023-06-08 09:10:10:389] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@c5cdd045,null
+[2023-06-08 09:10:10:389] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@96caf36,null
+[2023-06-08 09:10:10:397] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@6346d7c,null
+[2023-06-08 09:10:10:397] [INFO] - com.alibaba.excel.util.StyleUtil.buildDataFormat(StyleUtil.java:131) - create new data fromat:com.alibaba.excel.metadata.data.DataFormatData@d234dc42
+[2023-06-08 09:10:10:398] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@f9502bc,null
+[2023-06-08 09:10:10:398] [INFO] - com.alibaba.excel.util.StyleUtil.buildDataFormat(StyleUtil.java:131) - create new data fromat:com.alibaba.excel.metadata.data.DataFormatData@f67a1982
+[2023-06-08 09:10:10:692] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:1457ms
+[2023-06-08 09:10:10:705] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:76) - RESPONSE:{"status":10000,"msg":"SUCCESS","data":null}
+[2023-06-08 09:22:37:480] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[2023-06-08 09:22:37:492] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - i_mall - Shutdown initiated...
+[2023-06-08 09:22:37:499] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - i_mall - Shutdown completed.
+[2023-06-08 09:28:28:795] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting ImallApplication on SMK with PID 7880 (D:\Projects\imall\target\classes started by 27850 in D:\Projects\imall)
+[2023-06-08 09:28:28:798] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[2023-06-08 09:28:29:303] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2023-06-08 09:28:29:305] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[2023-06-08 09:28:29:322] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+[2023-06-08 09:28:29:496] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-08 09:28:29:785] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[2023-06-08 09:28:29:790] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[2023-06-08 09:28:29:790] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2023-06-08 09:28:29:791] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2023-06-08 09:28:29:850] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2023-06-08 09:28:29:850] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1026 ms
+[2023-06-08 09:28:30:615] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2023-06-08 09:28:30:719] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[2023-06-08 09:28:31:056] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[2023-06-08 09:28:31:065] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[2023-06-08 09:28:31:085] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[2023-06-08 09:28:31:306] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: listUsingGET_1
+[2023-06-08 09:28:31:320] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: listUsingGET_2
+[2023-06-08 09:28:31:389] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[2023-06-08 09:28:31:401] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[2023-06-08 09:28:31:403] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started ImallApplication in 2.81 seconds (JVM running for 3.97)
+[2023-06-08 09:28:39:842] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-06-08 09:28:39:842] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[2023-06-08 09:28:39:848] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 6 ms
+[2023-06-08 09:28:52:797] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - URL:http://localhost:8080/excel/downloadExcel;
+[2023-06-08 09:28:52:797] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:57) - HTTP_METHOD:GET;
+[2023-06-08 09:28:52:798] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:59) - IP:0:0:0:0:0:0:0:1;
+[2023-06-08 09:28:52:799] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:61) - CLASS_INFO:com.zhang.imall.controller.ExcelController.downloadExcel;
+[2023-06-08 09:28:52:799] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[org.apache.catalina.connector.ResponseFacade@4928cd1d];
+[2023-06-08 09:28:52:998] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - i_mall - Starting...
+[2023-06-08 09:28:53:644] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - i_mall - Start completed.
+[2023-06-08 09:28:53:757] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@684a0d27,null
+[2023-06-08 09:28:53:767] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@e747bd82,null
+[2023-06-08 09:28:53:801] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@c5cdd045,null
+[2023-06-08 09:28:53:801] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@96caf36,null
+[2023-06-08 09:28:53:804] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@f7f17e5c,null
+[2023-06-08 09:28:53:804] [INFO] - com.alibaba.excel.util.StyleUtil.buildDataFormat(StyleUtil.java:131) - create new data fromat:com.alibaba.excel.metadata.data.DataFormatData@4f770922
+[2023-06-08 09:28:53:888] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:1093ms
+[2023-06-08 09:28:53:888] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:76) - RESPONSE:null
+[2023-06-08 09:32:13:212] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - URL:http://localhost:8080/excel/downloadExcel;
+[2023-06-08 09:32:13:212] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:57) - HTTP_METHOD:GET;
+[2023-06-08 09:32:13:212] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:59) - IP:0:0:0:0:0:0:0:1;
+[2023-06-08 09:32:13:212] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:61) - CLASS_INFO:com.zhang.imall.controller.ExcelController.downloadExcel;
+[2023-06-08 09:32:13:212] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[org.apache.catalina.connector.ResponseFacade@4928cd1d];
+[2023-06-08 09:32:13:221] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@684a0d27,null
+[2023-06-08 09:32:13:222] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@e747bd82,null
+[2023-06-08 09:32:13:223] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@c5cdd045,null
+[2023-06-08 09:32:13:223] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@96caf36,null
+[2023-06-08 09:32:13:223] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@f7f17e5c,null
+[2023-06-08 09:32:13:224] [INFO] - com.alibaba.excel.util.StyleUtil.buildDataFormat(StyleUtil.java:131) - create new data fromat:com.alibaba.excel.metadata.data.DataFormatData@4f770922
+[2023-06-08 09:32:13:242] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:29ms
+[2023-06-08 09:32:13:242] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:76) - RESPONSE:null
+[2023-06-08 10:21:02:995] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - URL:http://10.10.10.81:8080/excel/downloadExcel;
+[2023-06-08 10:21:02:995] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:57) - HTTP_METHOD:GET;
+[2023-06-08 10:21:02:996] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:59) - IP:10.10.10.81;
+[2023-06-08 10:21:02:996] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:61) - CLASS_INFO:com.zhang.imall.controller.ExcelController.downloadExcel;
+[2023-06-08 10:21:02:996] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[org.apache.catalina.connector.ResponseFacade@4928cd1d];
+[2023-06-08 10:21:03:006] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@684a0d27,null
+[2023-06-08 10:21:03:007] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@e747bd82,null
+[2023-06-08 10:21:03:008] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@c5cdd045,null
+[2023-06-08 10:21:03:008] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@96caf36,null
+[2023-06-08 10:21:03:009] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@f7f17e5c,null
+[2023-06-08 10:21:03:009] [INFO] - com.alibaba.excel.util.StyleUtil.buildDataFormat(StyleUtil.java:131) - create new data fromat:com.alibaba.excel.metadata.data.DataFormatData@4f770922
+[2023-06-08 10:21:03:025] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:30ms
+[2023-06-08 10:21:03:026] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:76) - RESPONSE:null
+[2023-06-08 10:21:32:835] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - URL:http://10.10.10.81:8080/excel/downloadExcel;
+[2023-06-08 10:21:32:835] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:57) - HTTP_METHOD:GET;
+[2023-06-08 10:21:32:835] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:59) - IP:10.10.10.85;
+[2023-06-08 10:21:32:835] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:61) - CLASS_INFO:com.zhang.imall.controller.ExcelController.downloadExcel;
+[2023-06-08 10:21:32:835] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[org.apache.catalina.connector.ResponseFacade@4928cd1d];
+[2023-06-08 10:21:32:842] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@684a0d27,null
+[2023-06-08 10:21:32:843] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@e747bd82,null
+[2023-06-08 10:21:32:844] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@c5cdd045,null
+[2023-06-08 10:21:32:844] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@96caf36,null
+[2023-06-08 10:21:32:844] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@f7f17e5c,null
+[2023-06-08 10:21:32:845] [INFO] - com.alibaba.excel.util.StyleUtil.buildDataFormat(StyleUtil.java:131) - create new data fromat:com.alibaba.excel.metadata.data.DataFormatData@4f770922
+[2023-06-08 10:21:32:859] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:24ms
+[2023-06-08 10:21:32:859] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:76) - RESPONSE:null
+[2023-06-08 10:21:44:884] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - URL:http://10.10.10.81:8080/excel/downloadExcel;
+[2023-06-08 10:21:44:885] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:57) - HTTP_METHOD:GET;
+[2023-06-08 10:21:44:885] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:59) - IP:10.10.10.85;
+[2023-06-08 10:21:44:886] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:61) - CLASS_INFO:com.zhang.imall.controller.ExcelController.downloadExcel;
+[2023-06-08 10:21:44:886] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[org.apache.catalina.connector.ResponseFacade@4928cd1d];
+[2023-06-08 10:21:44:892] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@684a0d27,null
+[2023-06-08 10:21:44:893] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@e747bd82,null
+[2023-06-08 10:21:44:893] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@c5cdd045,null
+[2023-06-08 10:21:44:893] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@96caf36,null
+[2023-06-08 10:21:44:894] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@f7f17e5c,null
+[2023-06-08 10:21:44:894] [INFO] - com.alibaba.excel.util.StyleUtil.buildDataFormat(StyleUtil.java:131) - create new data fromat:com.alibaba.excel.metadata.data.DataFormatData@4f770922
+[2023-06-08 10:21:44:906] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:22ms
+[2023-06-08 10:21:44:906] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:76) - RESPONSE:null
+[2023-06-08 10:21:45:221] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - URL:http://10.10.10.81:8080/excel/downloadExcel;
+[2023-06-08 10:21:45:221] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:57) - HTTP_METHOD:HEAD;
+[2023-06-08 10:21:45:221] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:59) - IP:10.10.10.85;
+[2023-06-08 10:21:45:221] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:61) - CLASS_INFO:com.zhang.imall.controller.ExcelController.downloadExcel;
+[2023-06-08 10:21:45:221] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[javax.servlet.http.NoBodyResponse@73196fdf];
+[2023-06-08 10:21:45:228] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@684a0d27,null
+[2023-06-08 10:21:45:228] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@e747bd82,null
+[2023-06-08 10:21:45:229] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@c5cdd045,null
+[2023-06-08 10:21:45:229] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@96caf36,null
+[2023-06-08 10:21:45:229] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@f7f17e5c,null
+[2023-06-08 10:21:45:229] [INFO] - com.alibaba.excel.util.StyleUtil.buildDataFormat(StyleUtil.java:131) - create new data fromat:com.alibaba.excel.metadata.data.DataFormatData@4f770922
+[2023-06-08 10:21:45:241] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:19ms
+[2023-06-08 10:21:45:241] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:76) - RESPONSE:null
+[2023-06-08 10:21:45:259] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - URL:http://10.10.10.81:8080/excel/downloadExcel;
+[2023-06-08 10:21:45:259] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:57) - HTTP_METHOD:HEAD;
+[2023-06-08 10:21:45:259] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:59) - IP:10.10.10.85;
+[2023-06-08 10:21:45:259] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:61) - CLASS_INFO:com.zhang.imall.controller.ExcelController.downloadExcel;
+[2023-06-08 10:21:45:259] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[javax.servlet.http.NoBodyResponse@1bedc230];
+[2023-06-08 10:21:45:264] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@684a0d27,null
+[2023-06-08 10:21:45:265] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@e747bd82,null
+[2023-06-08 10:21:45:265] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@c5cdd045,null
+[2023-06-08 10:21:45:266] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@96caf36,null
+[2023-06-08 10:21:45:266] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@f7f17e5c,null
+[2023-06-08 10:21:45:266] [INFO] - com.alibaba.excel.util.StyleUtil.buildDataFormat(StyleUtil.java:131) - create new data fromat:com.alibaba.excel.metadata.data.DataFormatData@4f770922
+[2023-06-08 10:21:45:276] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:18ms
+[2023-06-08 10:21:45:277] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:76) - RESPONSE:null
+[2023-06-08 10:21:47:621] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - URL:http://10.10.10.81:8080/excel/downloadExcel;
+[2023-06-08 10:21:47:621] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:57) - HTTP_METHOD:GET;
+[2023-06-08 10:21:47:621] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:59) - IP:10.10.10.85;
+[2023-06-08 10:21:47:621] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:61) - CLASS_INFO:com.zhang.imall.controller.ExcelController.downloadExcel;
+[2023-06-08 10:21:47:621] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[org.apache.catalina.connector.ResponseFacade@4928cd1d];
+[2023-06-08 10:21:47:627] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@684a0d27,null
+[2023-06-08 10:21:47:628] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@e747bd82,null
+[2023-06-08 10:21:47:628] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@c5cdd045,null
+[2023-06-08 10:21:47:628] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@96caf36,null
+[2023-06-08 10:21:47:628] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@f7f17e5c,null
+[2023-06-08 10:21:47:628] [INFO] - com.alibaba.excel.util.StyleUtil.buildDataFormat(StyleUtil.java:131) - create new data fromat:com.alibaba.excel.metadata.data.DataFormatData@4f770922
+[2023-06-08 10:21:47:640] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:19ms
+[2023-06-08 10:21:47:640] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:76) - RESPONSE:null
+[2023-06-08 10:34:02:709] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[2023-06-08 10:34:02:720] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - i_mall - Shutdown initiated...
+[2023-06-08 10:34:02:725] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - i_mall - Shutdown completed.
+[2023-06-08 10:34:06:923] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting ImallApplication on SMK with PID 1348 (D:\Projects\imall\target\classes started by 27850 in D:\Projects\imall)
+[2023-06-08 10:34:06:927] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[2023-06-08 10:34:07:504] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2023-06-08 10:34:07:506] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[2023-06-08 10:34:07:524] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+[2023-06-08 10:34:07:701] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-08 10:34:08:000] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[2023-06-08 10:34:08:005] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[2023-06-08 10:34:08:006] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2023-06-08 10:34:08:006] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2023-06-08 10:34:08:067] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2023-06-08 10:34:08:067] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1099 ms
+[2023-06-08 10:34:08:846] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2023-06-08 10:34:08:965] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[2023-06-08 10:34:09:330] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[2023-06-08 10:34:09:339] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[2023-06-08 10:34:09:359] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[2023-06-08 10:34:09:591] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: listUsingGET_1
+[2023-06-08 10:34:09:605] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: listUsingGET_2
+[2023-06-08 10:34:09:674] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[2023-06-08 10:34:09:688] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[2023-06-08 10:34:09:690] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started ImallApplication in 3.0 seconds (JVM running for 4.238)
+[2023-06-08 10:34:14:100] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-06-08 10:34:14:100] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[2023-06-08 10:34:14:105] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 5 ms
+[2023-06-08 10:34:14:123] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - URL:http://localhost:8080/excel/downloadExcel;
+[2023-06-08 10:34:14:123] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:57) - HTTP_METHOD:GET;
+[2023-06-08 10:34:14:123] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:59) - IP:0:0:0:0:0:0:0:1;
+[2023-06-08 10:34:14:124] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:61) - CLASS_INFO:com.zhang.imall.controller.ExcelController.downloadExcel;
+[2023-06-08 10:34:14:124] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[org.apache.catalina.connector.ResponseFacade@3497edf3];
+[2023-06-08 10:34:14:323] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - i_mall - Starting...
+[2023-06-08 10:34:14:973] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - i_mall - Start completed.
+[2023-06-08 10:34:15:090] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@145e6cb1,null
+[2023-06-08 10:34:15:100] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@e747bd82,null
+[2023-06-08 10:34:15:135] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@c5cdd045,null
+[2023-06-08 10:34:15:136] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@96caf36,null
+[2023-06-08 10:34:15:138] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@f7f17e5c,null
+[2023-06-08 10:34:15:139] [INFO] - com.alibaba.excel.util.StyleUtil.buildDataFormat(StyleUtil.java:131) - create new data fromat:com.alibaba.excel.metadata.data.DataFormatData@4f770922
+[2023-06-08 10:34:15:225] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:1105ms
+[2023-06-08 10:34:15:229] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:76) - RESPONSE:null
+[2023-06-08 10:35:14:527] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - URL:http://localhost:8080/excel/downloadExcel;
+[2023-06-08 10:35:14:527] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:57) - HTTP_METHOD:GET;
+[2023-06-08 10:35:14:527] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:59) - IP:0:0:0:0:0:0:0:1;
+[2023-06-08 10:35:14:527] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:61) - CLASS_INFO:com.zhang.imall.controller.ExcelController.downloadExcel;
+[2023-06-08 10:35:14:527] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[org.apache.catalina.connector.ResponseFacade@3497edf3];
+[2023-06-08 10:35:14:538] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@145e6cb1,null
+[2023-06-08 10:35:14:539] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@e747bd82,null
+[2023-06-08 10:35:14:539] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@c5cdd045,null
+[2023-06-08 10:35:14:540] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@96caf36,null
+[2023-06-08 10:35:14:540] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@f7f17e5c,null
+[2023-06-08 10:35:14:540] [INFO] - com.alibaba.excel.util.StyleUtil.buildDataFormat(StyleUtil.java:131) - create new data fromat:com.alibaba.excel.metadata.data.DataFormatData@4f770922
+[2023-06-08 10:35:14:559] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:32ms
+[2023-06-08 10:35:14:559] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:76) - RESPONSE:null
+[2023-06-08 10:36:45:923] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[2023-06-08 10:36:45:935] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - i_mall - Shutdown initiated...
+[2023-06-08 10:36:45:942] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - i_mall - Shutdown completed.
+[2023-06-08 10:36:51:346] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting ImallApplication on SMK with PID 16888 (D:\Projects\imall\target\classes started by 27850 in D:\Projects\imall)
+[2023-06-08 10:36:51:348] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[2023-06-08 10:36:51:909] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2023-06-08 10:36:51:911] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[2023-06-08 10:36:51:929] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+[2023-06-08 10:36:52:108] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-08 10:36:52:410] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[2023-06-08 10:36:52:415] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[2023-06-08 10:36:52:416] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2023-06-08 10:36:52:416] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2023-06-08 10:36:52:476] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2023-06-08 10:36:52:476] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1079 ms
+[2023-06-08 10:36:53:257] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2023-06-08 10:36:53:361] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[2023-06-08 10:36:53:702] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[2023-06-08 10:36:53:712] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[2023-06-08 10:36:53:732] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[2023-06-08 10:36:53:955] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: listUsingGET_1
+[2023-06-08 10:36:53:969] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: listUsingGET_2
+[2023-06-08 10:36:54:037] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[2023-06-08 10:36:54:050] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[2023-06-08 10:36:54:052] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started ImallApplication in 2.9 seconds (JVM running for 4.119)
+[2023-06-08 10:36:56:218] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-06-08 10:36:56:218] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[2023-06-08 10:36:56:224] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 5 ms
+[2023-06-08 10:36:56:241] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - URL:http://localhost:8080/excel/downloadExcel;
+[2023-06-08 10:36:56:241] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:57) - HTTP_METHOD:GET;
+[2023-06-08 10:36:56:241] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:59) - IP:0:0:0:0:0:0:0:1;
+[2023-06-08 10:36:56:242] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:61) - CLASS_INFO:com.zhang.imall.controller.ExcelController.downloadExcel;
+[2023-06-08 10:36:56:242] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[org.apache.catalina.connector.ResponseFacade@3ed94191];
+[2023-06-08 10:36:56:448] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - i_mall - Starting...
+[2023-06-08 10:36:57:096] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - i_mall - Start completed.
+[2023-06-08 10:36:57:209] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@6c77dd94,null
+[2023-06-08 10:36:57:222] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@e747bd82,null
+[2023-06-08 10:36:57:256] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@c5cdd045,null
+[2023-06-08 10:36:57:256] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@96caf36,null
+[2023-06-08 10:36:57:259] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@f7f17e5c,null
+[2023-06-08 10:36:57:259] [INFO] - com.alibaba.excel.util.StyleUtil.buildDataFormat(StyleUtil.java:131) - create new data fromat:com.alibaba.excel.metadata.data.DataFormatData@4f770922
+[2023-06-08 10:36:57:348] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:1109ms
+[2023-06-08 10:36:57:352] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:76) - RESPONSE:null
+[2023-06-08 10:40:13:926] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[2023-06-08 10:40:13:939] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - i_mall - Shutdown initiated...
+[2023-06-08 10:40:13:943] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - i_mall - Shutdown completed.
+[2023-06-08 10:40:17:915] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting ImallApplication on SMK with PID 22344 (D:\Projects\imall\target\classes started by 27850 in D:\Projects\imall)
+[2023-06-08 10:40:17:943] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[2023-06-08 10:40:18:452] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2023-06-08 10:40:18:454] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[2023-06-08 10:40:18:471] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+[2023-06-08 10:40:18:646] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-08 10:40:18:936] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[2023-06-08 10:40:18:942] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[2023-06-08 10:40:18:942] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2023-06-08 10:40:18:942] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2023-06-08 10:40:19:002] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2023-06-08 10:40:19:003] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1032 ms
+[2023-06-08 10:40:19:768] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2023-06-08 10:40:19:872] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[2023-06-08 10:40:20:219] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[2023-06-08 10:40:20:228] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[2023-06-08 10:40:20:248] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[2023-06-08 10:40:20:467] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: listUsingGET_1
+[2023-06-08 10:40:20:482] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: listUsingGET_2
+[2023-06-08 10:40:20:550] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[2023-06-08 10:40:20:563] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[2023-06-08 10:40:20:565] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started ImallApplication in 2.835 seconds (JVM running for 4.002)
+[2023-06-08 10:40:27:113] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-06-08 10:40:27:113] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[2023-06-08 10:40:27:118] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 5 ms
+[2023-06-08 10:40:27:135] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - URL:http://localhost:8080/excel/downloadExcel;
+[2023-06-08 10:40:27:135] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:57) - HTTP_METHOD:GET;
+[2023-06-08 10:40:27:136] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:59) - IP:0:0:0:0:0:0:0:1;
+[2023-06-08 10:40:27:136] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:61) - CLASS_INFO:com.zhang.imall.controller.ExcelController.downloadExcel;
+[2023-06-08 10:40:27:137] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[org.apache.catalina.connector.ResponseFacade@76e05bc9];
+[2023-06-08 10:40:27:340] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - i_mall - Starting...
+[2023-06-08 10:40:27:983] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - i_mall - Start completed.
+[2023-06-08 10:40:28:097] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@b4d4d56a,null
+[2023-06-08 10:40:28:108] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@e747bd82,null
+[2023-06-08 10:40:28:143] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@c5cdd045,null
+[2023-06-08 10:40:28:143] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@96caf36,null
+[2023-06-08 10:40:28:147] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@f7f17e5c,null
+[2023-06-08 10:40:28:147] [INFO] - com.alibaba.excel.util.StyleUtil.buildDataFormat(StyleUtil.java:131) - create new data fromat:com.alibaba.excel.metadata.data.DataFormatData@4f770922
+[2023-06-08 10:40:28:151] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:1017ms
+[2023-06-08 10:40:43:836] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - URL:http://localhost:8080/excel/downloadExcel;
+[2023-06-08 10:40:43:836] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:57) - HTTP_METHOD:GET;
+[2023-06-08 10:40:43:836] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:59) - IP:0:0:0:0:0:0:0:1;
+[2023-06-08 10:40:43:836] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:61) - CLASS_INFO:com.zhang.imall.controller.ExcelController.downloadExcel;
+[2023-06-08 10:40:43:837] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[org.apache.catalina.connector.ResponseFacade@76e05bc9];
+[2023-06-08 10:40:43:848] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@b4d4d56a,null
+[2023-06-08 10:40:43:849] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@e747bd82,null
+[2023-06-08 10:40:43:850] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@c5cdd045,null
+[2023-06-08 10:40:43:851] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@96caf36,null
+[2023-06-08 10:40:43:851] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@f7f17e5c,null
+[2023-06-08 10:40:43:851] [INFO] - com.alibaba.excel.util.StyleUtil.buildDataFormat(StyleUtil.java:131) - create new data fromat:com.alibaba.excel.metadata.data.DataFormatData@4f770922
+[2023-06-08 10:40:43:854] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:18ms
+[2023-06-08 10:41:14:925] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - URL:http://10.10.10.81:8080/excel/downloadExcel;
+[2023-06-08 10:41:14:925] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:57) - HTTP_METHOD:GET;
+[2023-06-08 10:41:14:925] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:59) - IP:10.10.10.85;
+[2023-06-08 10:41:14:925] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:61) - CLASS_INFO:com.zhang.imall.controller.ExcelController.downloadExcel;
+[2023-06-08 10:41:14:926] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[org.apache.catalina.connector.ResponseFacade@76e05bc9];
+[2023-06-08 10:41:14:933] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@b4d4d56a,null
+[2023-06-08 10:41:14:934] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@e747bd82,null
+[2023-06-08 10:41:14:934] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@c5cdd045,null
+[2023-06-08 10:41:14:934] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@96caf36,null
+[2023-06-08 10:41:14:935] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@f7f17e5c,null
+[2023-06-08 10:41:14:935] [INFO] - com.alibaba.excel.util.StyleUtil.buildDataFormat(StyleUtil.java:131) - create new data fromat:com.alibaba.excel.metadata.data.DataFormatData@4f770922
+[2023-06-08 10:41:14:937] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:12ms
+[2023-06-08 10:41:19:892] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - URL:http://10.10.10.81:8080/excel/downloadExcel;
+[2023-06-08 10:41:19:893] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:57) - HTTP_METHOD:GET;
+[2023-06-08 10:41:19:893] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:59) - IP:10.10.10.85;
+[2023-06-08 10:41:19:893] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:61) - CLASS_INFO:com.zhang.imall.controller.ExcelController.downloadExcel;
+[2023-06-08 10:41:19:893] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[org.apache.catalina.connector.ResponseFacade@76e05bc9];
+[2023-06-08 10:41:19:901] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@b4d4d56a,null
+[2023-06-08 10:41:19:902] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@e747bd82,null
+[2023-06-08 10:41:19:902] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@c5cdd045,null
+[2023-06-08 10:41:19:902] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@96caf36,null
+[2023-06-08 10:41:19:903] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@f7f17e5c,null
+[2023-06-08 10:41:19:903] [INFO] - com.alibaba.excel.util.StyleUtil.buildDataFormat(StyleUtil.java:131) - create new data fromat:com.alibaba.excel.metadata.data.DataFormatData@4f770922
+[2023-06-08 10:41:19:905] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:13ms
+[2023-06-08 10:41:20:359] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - URL:http://10.10.10.81:8080/excel/downloadExcel;
+[2023-06-08 10:41:20:359] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:57) - HTTP_METHOD:HEAD;
+[2023-06-08 10:41:20:359] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:59) - IP:10.10.10.85;
+[2023-06-08 10:41:20:359] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:61) - CLASS_INFO:com.zhang.imall.controller.ExcelController.downloadExcel;
+[2023-06-08 10:41:20:359] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[javax.servlet.http.NoBodyResponse@140bba7b];
+[2023-06-08 10:41:20:365] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@b4d4d56a,null
+[2023-06-08 10:41:20:366] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@e747bd82,null
+[2023-06-08 10:41:20:366] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@c5cdd045,null
+[2023-06-08 10:41:20:367] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@96caf36,null
+[2023-06-08 10:41:20:367] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@f7f17e5c,null
+[2023-06-08 10:41:20:367] [INFO] - com.alibaba.excel.util.StyleUtil.buildDataFormat(StyleUtil.java:131) - create new data fromat:com.alibaba.excel.metadata.data.DataFormatData@4f770922
+[2023-06-08 10:41:20:369] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:11ms
+[2023-06-08 10:41:20:434] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - URL:http://10.10.10.81:8080/excel/downloadExcel;
+[2023-06-08 10:41:20:435] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:57) - HTTP_METHOD:HEAD;
+[2023-06-08 10:41:20:435] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:59) - IP:10.10.10.85;
+[2023-06-08 10:41:20:436] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:61) - CLASS_INFO:com.zhang.imall.controller.ExcelController.downloadExcel;
+[2023-06-08 10:41:20:436] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[javax.servlet.http.NoBodyResponse@5e1af18b];
+[2023-06-08 10:41:20:442] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@b4d4d56a,null
+[2023-06-08 10:41:20:443] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@e747bd82,null
+[2023-06-08 10:41:20:444] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@c5cdd045,null
+[2023-06-08 10:41:20:444] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@96caf36,null
+[2023-06-08 10:41:20:444] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@f7f17e5c,null
+[2023-06-08 10:41:20:444] [INFO] - com.alibaba.excel.util.StyleUtil.buildDataFormat(StyleUtil.java:131) - create new data fromat:com.alibaba.excel.metadata.data.DataFormatData@4f770922
+[2023-06-08 10:41:20:446] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:11ms
+[2023-06-08 10:41:21:762] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - URL:http://10.10.10.81:8080/excel/downloadExcel;
+[2023-06-08 10:41:21:762] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:57) - HTTP_METHOD:GET;
+[2023-06-08 10:41:21:762] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:59) - IP:10.10.10.85;
+[2023-06-08 10:41:21:762] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:61) - CLASS_INFO:com.zhang.imall.controller.ExcelController.downloadExcel;
+[2023-06-08 10:41:21:762] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[org.apache.catalina.connector.ResponseFacade@76e05bc9];
+[2023-06-08 10:41:21:769] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@b4d4d56a,null
+[2023-06-08 10:41:21:770] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@e747bd82,null
+[2023-06-08 10:41:21:770] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@c5cdd045,null
+[2023-06-08 10:41:21:770] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@96caf36,null
+[2023-06-08 10:41:21:770] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@f7f17e5c,null
+[2023-06-08 10:41:21:771] [INFO] - com.alibaba.excel.util.StyleUtil.buildDataFormat(StyleUtil.java:131) - create new data fromat:com.alibaba.excel.metadata.data.DataFormatData@4f770922
+[2023-06-08 10:41:21:772] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:10ms
+[2023-06-08 10:46:42:956] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[2023-06-08 10:46:42:967] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - i_mall - Shutdown initiated...
+[2023-06-08 10:46:42:973] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - i_mall - Shutdown completed.
+[2023-06-08 10:46:46:825] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting ImallApplication on SMK with PID 15708 (D:\Projects\imall\target\classes started by 27850 in D:\Projects\imall)
+[2023-06-08 10:46:46:852] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[2023-06-08 10:46:47:364] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2023-06-08 10:46:47:366] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[2023-06-08 10:46:47:383] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+[2023-06-08 10:46:47:567] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-08 10:46:47:877] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[2023-06-08 10:46:47:883] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[2023-06-08 10:46:47:883] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2023-06-08 10:46:47:883] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2023-06-08 10:46:47:947] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2023-06-08 10:46:47:948] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1067 ms
+[2023-06-08 10:46:48:743] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2023-06-08 10:46:48:846] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[2023-06-08 10:46:49:184] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[2023-06-08 10:46:49:193] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[2023-06-08 10:46:49:212] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[2023-06-08 10:46:49:438] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: listUsingGET_1
+[2023-06-08 10:46:49:452] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: listUsingGET_2
+[2023-06-08 10:46:49:521] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[2023-06-08 10:46:49:533] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[2023-06-08 10:46:49:535] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started ImallApplication in 2.906 seconds (JVM running for 4.114)
+[2023-06-08 10:46:52:382] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[2023-06-08 10:46:57:301] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting ImallApplication on SMK with PID 11364 (D:\Projects\imall\target\classes started by 27850 in D:\Projects\imall)
+[2023-06-08 10:46:57:331] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[2023-06-08 10:46:57:855] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2023-06-08 10:46:57:857] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[2023-06-08 10:46:57:874] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+[2023-06-08 10:46:58:054] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-06-08 10:46:58:346] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[2023-06-08 10:46:58:351] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[2023-06-08 10:46:58:351] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2023-06-08 10:46:58:352] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2023-06-08 10:46:58:412] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2023-06-08 10:46:58:413] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1055 ms
+[2023-06-08 10:46:59:185] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2023-06-08 10:46:59:299] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[2023-06-08 10:46:59:647] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[2023-06-08 10:46:59:657] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[2023-06-08 10:46:59:677] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[2023-06-08 10:46:59:900] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: listUsingGET_1
+[2023-06-08 10:46:59:913] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: listUsingGET_2
+[2023-06-08 10:46:59:984] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[2023-06-08 10:46:59:997] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[2023-06-08 10:46:59:999] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started ImallApplication in 2.889 seconds (JVM running for 4.1)
+[2023-06-08 10:47:00:170] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-06-08 10:47:00:171] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[2023-06-08 10:47:00:176] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 5 ms
+[2023-06-08 10:47:08:183] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - URL:http://localhost:8080/excel/exportExcel;
+[2023-06-08 10:47:08:183] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:57) - HTTP_METHOD:GET;
+[2023-06-08 10:47:08:183] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:59) - IP:0:0:0:0:0:0:0:1;
+[2023-06-08 10:47:08:184] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:61) - CLASS_INFO:com.zhang.imall.controller.ExcelController.exportExcel;
+[2023-06-08 10:47:08:184] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[];
+[2023-06-08 10:47:08:389] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - i_mall - Starting...
+[2023-06-08 10:47:09:035] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - i_mall - Start completed.
+[2023-06-08 10:47:09:149] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@4ab79cd0,null
+[2023-06-08 10:47:09:160] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@e747bd82,null
+[2023-06-08 10:47:09:195] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@c5cdd045,null
+[2023-06-08 10:47:09:195] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@96caf36,null
+[2023-06-08 10:47:09:200] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@6346d7c,null
+[2023-06-08 10:47:09:200] [INFO] - com.alibaba.excel.util.StyleUtil.buildDataFormat(StyleUtil.java:131) - create new data fromat:com.alibaba.excel.metadata.data.DataFormatData@d234dc42
+[2023-06-08 10:47:09:201] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@f9502bc,null
+[2023-06-08 10:47:09:201] [INFO] - com.alibaba.excel.util.StyleUtil.buildDataFormat(StyleUtil.java:131) - create new data fromat:com.alibaba.excel.metadata.data.DataFormatData@f67a1982
+[2023-06-08 10:47:09:286] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:1106ms
+[2023-06-08 10:47:09:287] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:76) - RESPONSE:{"status":10000,"msg":"SUCCESS","data":null}
+[2023-06-08 10:47:16:348] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - URL:http://localhost:8080/excel/downloadExcel;
+[2023-06-08 10:47:16:348] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:57) - HTTP_METHOD:GET;
+[2023-06-08 10:47:16:348] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:59) - IP:0:0:0:0:0:0:0:1;
+[2023-06-08 10:47:16:349] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:61) - CLASS_INFO:com.zhang.imall.controller.ExcelController.downloadExcel;
+[2023-06-08 10:47:16:349] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[org.apache.catalina.connector.ResponseFacade@5eac80c0];
+[2023-06-08 10:47:16:361] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@4ab79cd0,null
+[2023-06-08 10:47:16:362] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@e747bd82,null
+[2023-06-08 10:47:16:363] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@c5cdd045,null
+[2023-06-08 10:47:16:365] [INFO] - com.alibaba.excel.util.StyleUtil.buildFont(StyleUtil.java:141) - create new font:com.alibaba.excel.write.metadata.style.WriteFont@96caf36,null
+[2023-06-08 10:47:16:366] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@6346d7c,null
+[2023-06-08 10:47:16:366] [INFO] - com.alibaba.excel.util.StyleUtil.buildDataFormat(StyleUtil.java:131) - create new data fromat:com.alibaba.excel.metadata.data.DataFormatData@d234dc42
+[2023-06-08 10:47:16:367] [INFO] - com.alibaba.excel.write.metadata.holder.WriteWorkbookHolder.createCellStyle(WriteWorkbookHolder.java:294) - create new style:com.alibaba.excel.write.metadata.style.WriteCellStyle@f9502bc,null
+[2023-06-08 10:47:16:367] [INFO] - com.alibaba.excel.util.StyleUtil.buildDataFormat(StyleUtil.java:131) - create new data fromat:com.alibaba.excel.metadata.data.DataFormatData@f67a1982
+[2023-06-08 10:47:16:388] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:39ms
+[2023-06-08 10:47:16:388] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:76) - RESPONSE:null

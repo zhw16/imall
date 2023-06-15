@@ -8,7 +8,9 @@ import freemarker.template.Template;
 import org.redisson.Redisson;
 import org.redisson.api.RBucket;
 import org.redisson.api.RedissonClient;
+import org.redisson.config.Config;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
@@ -37,6 +39,15 @@ public class EmailServiceImpl implements EmailService {
     private JavaMailSender javaMailSender;
     @Autowired
     private FreeMarkerConfigurer freeMarkerConfigurer;
+
+    @Value("${spring.redis.host}")
+    private String redisHost;
+
+    @Value("${spring.redis.port}")
+    private String redisPort;
+
+    @Value("${spring.redis.password}")
+    private String redisPassword;
 
     /**
      * 发送文本邮件
@@ -105,9 +116,13 @@ public class EmailServiceImpl implements EmailService {
      * @param verificationCode 验证码
      * @return 保存结果
      */
+    @Override
     public Boolean saveEmailToRedis(String email, String verificationCode) {
+        //创建redissonConfig,主机、端口、密码
+        Config redissonConfig = new Config();
+        redissonConfig.useSingleServer().setAddress("redis://" + redisHost + ":" + redisPort).setPassword(redisPassword);
         //创建 RedissonClient 对象，这是 Redisson 客户端库的入口点。
-        RedissonClient redissonClient = Redisson.create();
+        RedissonClient redissonClient = Redisson.create(redissonConfig);
         //通过 RedissonClient 对象获取一个Bucket（键值对），这里使用用户的 email 作为键。
         RBucket<String> bucket = redissonClient.getBucket(email);
         //检查 Bucket 是否存在，即检查 Redis 中是否已经存在对应的键。
@@ -115,6 +130,33 @@ public class EmailServiceImpl implements EmailService {
         if (!exists) {//不存在，使用用户的 email 作为键，存入中验证码，设置过期时间是60秒
             bucket.set(verificationCode, 60, TimeUnit.SECONDS);
             return true;
+        }
+        return false;
+    }
+
+    /**
+     * 校验邮箱地址和验证码的匹配
+     *
+     * @param email
+     * @param verificationCode
+     * @return
+     */
+    @Override
+    public Boolean checkEmailAndVerificationCode(String email, String verificationCode) {
+        //创建redissonConfig,主机、端口、密码
+        Config redissonConfig = new Config();
+        redissonConfig.useSingleServer().setAddress("redis://" + redisHost + ":" + redisPort).setPassword(redisPassword);
+        //创建 RedissonClient 对象，这是 Redisson 客户端库的入口点。
+        RedissonClient redissonClient = Redisson.create(redissonConfig);
+        //通过 RedissonClient 对象获取一个Bucket（键值对），这里使用用户的 email 作为键。
+        RBucket<String> bucket = redissonClient.getBucket(email);
+        //检查 Bucket 是否存在，即检查 Redis 中是否已经存在对应的键。
+        boolean exists = bucket.isExists();
+        if (exists) {//不存在，使用用户的 email 作为键，存入中验证码，设置过期时间是60秒
+            String redisVerificationCode = bucket.get();
+            if (verificationCode.equals(redisVerificationCode)) {
+                return true;
+            }
         }
         return false;
     }

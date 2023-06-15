@@ -150,12 +150,31 @@ public class UserServiceImpl implements UserService {
         //生成6位数字的验证码
         String verificationCode = emailService.createVerificationCode(6);
         //发送邮件
-        emailService.sentFreemarkerSimpleEmailMessage(emailAddress,Constant.EMAIL_SUBJECT,verificationCode);
+        emailService.sentFreemarkerSimpleEmailMessage(emailAddress, Constant.EMAIL_SUBJECT, verificationCode);
     }
 
     @Override
     public List<User> selectAllUser() {
         List<User> list=  userMapper.selectAllUser();
         return list;
+    }
+
+    /**
+     * 发送free marker模板短信，并保存到redis
+     *
+     * @param emailAddress
+     */
+    @Override
+    public void sentFreemarkerEmailAndSaveRedis(String emailAddress) {
+        //生成6位数字的验证码
+        String verificationCode = emailService.createVerificationCode(6);
+        //保存验证码到redis.
+        Boolean saveEmailToRedis = emailService.saveEmailToRedis(emailAddress, verificationCode);
+        if (!saveEmailToRedis) {
+            throw new ImallException(ImallExceptionEnum.EMAIL_HAS_BEEN_SENT,"邮件已发送，若无法收到，请稍后再试");
+        }else {
+            //发送邮件
+            emailService.sentFreemarkerSimpleEmailMessage(emailAddress, Constant.EMAIL_SUBJECT, verificationCode);
+        }
     }
 }

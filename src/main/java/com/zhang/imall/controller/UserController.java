@@ -5,8 +5,10 @@ import com.zhang.imall.common.Constant;
 import com.zhang.imall.exception.ImallException;
 import com.zhang.imall.exception.ImallExceptionEnum;
 import com.zhang.imall.model.pojo.User;
+import com.zhang.imall.service.EmailService;
 import com.zhang.imall.service.UserService;
 import io.swagger.annotations.ApiOperation;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
@@ -25,6 +27,9 @@ public class UserController {
     @Resource
     private UserService userService;
 
+    //注入EmailService 进行验证码校验
+    @Autowired
+    private EmailService emailService;
     /**
      * 测试接口
      *
@@ -181,5 +186,37 @@ public class UserController {
     }
 
 
+    /**
+     * 发送验证码并将验证码记录在redis
+     *
+     * @param emailAddress email地址
+     * @return
+     */
+    @ApiOperation("发送Freemarker模板Email的6位验证码,保存数据到redis")
+    @PostMapping("/sentFreemarkerEmailAndSaveRedis")
+    @ResponseBody
+    public ApiRestResponse sentFreemarkerEmailAndSaveRedis(String emailAddress) {
+        //发送邮件验证码
+        userService.sentFreemarkerEmailAndSaveRedis(emailAddress);
+        return ApiRestResponse.success();
+    }
 
+
+
+    /**
+     * 验证Email和验证码的匹配程度
+     * @param email
+     * @param verificationCode
+     * @return
+     */
+    @ApiOperation("校验邮箱和验证码")
+    @PostMapping("/checkEmailAndVerificationCode")
+    @ResponseBody
+    public ApiRestResponse checkEmailAndVerificationCode(String email, String verificationCode) {
+        Boolean checked = emailService.checkEmailAndVerificationCode(email, verificationCode);
+        if (!checked) {
+            return ApiRestResponse.error(ImallExceptionEnum.EMAIL_CHECKED_ERROR, "验证码错误，请检查后重试");
+        }
+        return ApiRestResponse.success();
+    }
 }

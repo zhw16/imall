@@ -29,4 +29,20 @@ public interface EmailService {
      * @return
      */
     String createVerificationCode(int num);
+
+    /**
+     * 保存邮箱对应的验证码到redis
+     * @param email  邮箱
+     * @param verificationCode 验证码
+     * @return
+     */
+    Boolean saveEmailToRedis(String email, String verificationCode);
+
+    /**
+     * 校验邮箱地址和验证码的匹配
+     * @param email
+     * @param verificationCode
+     * @return
+     */
+    Boolean checkEmailAndVerificationCode(String email, String verificationCode);
 }
