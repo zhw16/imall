@@ -1,376 +1,94 @@
-[2023-06-14 08:26:17:859] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - URL:http://localhost:8080/category/list;
-[2023-06-14 08:26:17:860] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:57) - HTTP_METHOD:GET;
-[2023-06-14 08:26:17:860] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:59) - IP:0:0:0:0:0:0:0:1;
-[2023-06-14 08:26:17:861] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:61) - CLASS_INFO:com.zhang.imall.controller.CategoryController.listCategoryForCustomer;
-[2023-06-14 08:26:17:861] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[];
-[2023-06-14 08:26:17:989] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:131ms
-[2023-06-14 08:26:17:991] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:76) - RESPONSE:{"status":10000,"msg":"SUCCESS","data":[{"id":3,"name":"新鲜水果","type":1,"parentId":0,"orderNum":1,"createTime":1576603020000,"updateTime":1577524286000,"childCategory":[{"id":4,"name":"橘子橙子","type":2,"parentId":3,"orderNum":1,"createTime":1576603020000,"updateTime":1577521510000,"childCategory":[{"id":19,"name":"果冻橙","type":3,"parentId":4,"orderNum":1,"createTime":1576603020000,"updateTime":1581352622000,"childCategory":[]}]},{"id":11,"name":"草莓","type":2,"parentId":3,"orderNum":2,"createTime":1576603020000,"updateTime":1577519082000,"childCategory":[]},{"id":12,"name":"奇异果","type":2,"parentId":3,"orderNum":3,"createTime":1576603020000,"updateTime":1577521512000,"childCategory":[]},{"id":14,"name":"车厘子","type":2,"parentId":3,"orderNum":4,"createTime":1576603020000,"updateTime":1577521512000,"childCategory":[]},{"id":28,"name":"其他水果","type":2,"parentId":3,"orderNum":4,"createTime":1576603020000,"updateTime":1577521512000,"childCategory":[]}]},{"id":5,"name":"海鲜水产","type":1,"parentId":0,"orderNum":2,"createTime":1576603020000,"updateTime":1577521520000,"childCategory":[{"id":7,"name":"螃蟹","type":2,"parentId":5,"orderNum":1,"createTime":1576603020000,"updateTime":1577521515000,"childCategory":[]},{"id":8,"name":"鱼类","type":2,"parentId":5,"orderNum":2,"createTime":1576603020000,"updateTime":1577521516000,"childCategory":[]},{"id":13,"name":"海参","type":2,"parentId":5,"orderNum":3,"createTime":1576603020000,"updateTime":1577521517000,"childCategory":[]}]},{"id":6,"name":"精选肉类","type":1,"parentId":0,"orderNum":3,"createTime":1576603020000,"updateTime":1577521521000,"childCategory":[{"id":16,"name":"牛羊肉","type":2,"parentId":6,"orderNum":1,"createTime":1576603020000,"updateTime":1577521518000,"childCategory":[]},{"id":29,"name":"鸭货","type":2,"parentId":6,"orderNum":15,"createTime":1660712638000,"updateTime":1660712638000,"childCategory":[]}]},{"id":9,"name":"冷饮冻食","type":1,"parentId":0,"orderNum":4,"createTime":1576820728000,"updateTime":1577521522000,"childCategory":[{"id":17,"name":"冰淇淋","type":2,"parentId":9,"orderNum":1,"createTime":1576603020000,"updateTime":1577521518000,"childCategory":[]}]},{"id":10,"name":"蔬菜蛋品","type":1,"parentId":0,"orderNum":5,"createTime":1576820728000,"updateTime":1577521523000,"childCategory":[{"id":18,"name":"蔬菜综合","type":2,"parentId":10,"orderNum":1,"createTime":1576603020000,"updateTime":1581353307000,"childCategory":[]}]},{"id":27,"name":"美味菌菇","type":1,"parentId":0,"orderNum":7,"createTime":1576820728000,"updateTime":1581348036000,"childCategory":[{"id":15,"name":"火锅食材","type":2,"parentId":27,"orderNum":5,"createTime":1576603020000,"updateTime":1581352953000,"childCategory":[]}]}]}
-[2023-06-14 08:41:24:409] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
-[2023-06-14 08:41:24:539] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - i_mall - Shutdown initiated...
-[2023-06-14 08:41:24:544] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - i_mall - Shutdown completed.
-[2023-06-14 08:41:29:097] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting ImallApplication on SMK with PID 6172 (D:\Projects\imall\target\classes started by 27850 in D:\Projects\imall)
-[2023-06-14 08:41:29:100] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
-[2023-06-14 08:41:29:627] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
-[2023-06-14 08:41:29:629] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
-[2023-06-14 08:41:29:647] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
-[2023-06-14 08:41:29:829] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[2023-06-14 08:41:30:169] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
-[2023-06-14 08:41:30:175] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
-[2023-06-14 08:41:30:176] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
-[2023-06-14 08:41:30:176] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
-[2023-06-14 08:41:30:240] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
-[2023-06-14 08:41:30:241] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1113 ms
-[2023-06-14 08:41:31:071] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-[2023-06-14 08:41:31:194] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
-[2023-06-14 08:41:31:555] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
-[2023-06-14 08:41:31:566] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
-[2023-06-14 08:41:31:588] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
-[2023-06-14 08:41:31:826] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: listUsingGET_1
-[2023-06-14 08:41:31:840] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: listUsingGET_2
-[2023-06-14 08:41:31:882] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: sentFreemarkerEmailUsingPOST_1
-[2023-06-14 08:41:31:910] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
-[2023-06-14 08:41:31:923] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
-[2023-06-14 08:41:31:925] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started ImallApplication in 3.067 seconds (JVM running for 4.413)
-[2023-06-14 08:41:36:441] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
-[2023-06-14 08:41:36:441] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
-[2023-06-14 08:41:36:447] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 6 ms
-[2023-06-14 08:41:53:962] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - URL:http://localhost:8080/sentFreemarkerEmail;
-[2023-06-14 08:41:53:962] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:57) - HTTP_METHOD:POST;
-[2023-06-14 08:41:53:963] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:59) - IP:0:0:0:0:0:0:0:1;
-[2023-06-14 08:41:53:963] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:61) - CLASS_INFO:com.zhang.imall.controller.RedisController.sentFreemarkerEmail;
-[2023-06-14 08:41:53:963] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[2785015696@qq.com];
-[2023-06-14 08:42:04:494] [INFO] - org.redisson.Version.logVersion(Version.java:41) - Redisson 3.11.1
-[2023-06-14 08:42:09:514] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:15554ms
-[2023-06-14 08:43:00:115] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - URL:http://localhost:8080/sentFreemarkerEmail;
-[2023-06-14 08:43:00:115] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:57) - HTTP_METHOD:POST;
-[2023-06-14 08:43:00:115] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:59) - IP:0:0:0:0:0:0:0:1;
-[2023-06-14 08:43:00:115] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:61) - CLASS_INFO:com.zhang.imall.controller.RedisController.sentFreemarkerEmail;
-[2023-06-14 08:43:00:115] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[2785015696@qq.com];
-[2023-06-14 08:43:05:582] [INFO] - org.redisson.Version.logVersion(Version.java:41) - Redisson 3.11.1
-[2023-06-14 08:43:09:641] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:9526ms
-[2023-06-14 10:29:16:597] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
-[2023-06-14 10:29:20:768] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting ImallApplication on SMK with PID 21408 (D:\Projects\imall\target\classes started by 27850 in D:\Projects\imall)
-[2023-06-14 10:29:20:770] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
-[2023-06-14 10:29:21:297] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
-[2023-06-14 10:29:21:299] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
-[2023-06-14 10:29:21:316] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
-[2023-06-14 10:29:21:507] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[2023-06-14 10:29:21:819] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
-[2023-06-14 10:29:21:824] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
-[2023-06-14 10:29:21:825] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
-[2023-06-14 10:29:21:825] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
-[2023-06-14 10:29:21:893] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
-[2023-06-14 10:29:21:894] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1075 ms
-[2023-06-14 10:29:22:680] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-[2023-06-14 10:29:22:801] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
-[2023-06-14 10:29:23:143] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
-[2023-06-14 10:29:23:152] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
-[2023-06-14 10:29:23:171] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
-[2023-06-14 10:29:23:402] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: listUsingGET_1
-[2023-06-14 10:29:23:415] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: listUsingGET_2
-[2023-06-14 10:29:23:485] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
-[2023-06-14 10:29:23:498] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
-[2023-06-14 10:29:23:500] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started ImallApplication in 2.923 seconds (JVM running for 4.129)
-[2023-06-14 10:29:36:253] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
-[2023-06-14 10:29:36:253] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
-[2023-06-14 10:29:36:259] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 6 ms
-[2023-06-14 10:30:08:420] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - URL:http://localhost:8080/sentFreemarkerEmailAndSaveRedis;
-[2023-06-14 10:30:08:420] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:57) - HTTP_METHOD:POST;
-[2023-06-14 10:30:08:420] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:59) - IP:0:0:0:0:0:0:0:1;
-[2023-06-14 10:30:08:421] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:61) - CLASS_INFO:com.zhang.imall.controller.RedisController.sentFreemarkerEmailAndSaveRedis;
-[2023-06-14 10:30:08:421] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[2785015696@qq.com];
-[2023-06-14 10:30:14:147] [INFO] - org.redisson.Version.logVersion(Version.java:41) - Redisson 3.11.1
-[2023-06-14 10:30:15:158] [INFO] - org.redisson.connection.pool.ConnectionPool$1.lambda$run$0(ConnectionPool.java:168) - 1 connections initialized for 124.220.196.193/124.220.196.193:6379
-[2023-06-14 10:30:15:158] [INFO] - org.redisson.connection.pool.ConnectionPool$1.lambda$run$0(ConnectionPool.java:168) - 24 connections initialized for 124.220.196.193/124.220.196.193:6379
-[2023-06-14 10:30:15:261] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:6844ms
-[2023-06-14 10:32:21:490] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
-[2023-06-14 10:32:25:460] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting ImallApplication on SMK with PID 21448 (D:\Projects\imall\target\classes started by 27850 in D:\Projects\imall)
-[2023-06-14 10:32:25:462] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
-[2023-06-14 10:32:25:992] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
-[2023-06-14 10:32:25:994] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
-[2023-06-14 10:32:26:011] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
-[2023-06-14 10:32:26:197] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[2023-06-14 10:32:26:530] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
-[2023-06-14 10:32:26:536] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
-[2023-06-14 10:32:26:536] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
-[2023-06-14 10:32:26:536] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
-[2023-06-14 10:32:26:599] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
-[2023-06-14 10:32:26:599] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1113 ms
-[2023-06-14 10:32:27:394] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-[2023-06-14 10:32:27:510] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
-[2023-06-14 10:32:27:869] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
-[2023-06-14 10:32:27:878] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
-[2023-06-14 10:32:27:898] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
-[2023-06-14 10:32:28:132] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: listUsingGET_1
-[2023-06-14 10:32:28:146] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: listUsingGET_2
-[2023-06-14 10:32:28:225] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
-[2023-06-14 10:32:28:238] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
-[2023-06-14 10:32:28:240] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started ImallApplication in 3.001 seconds (JVM running for 4.263)
-[2023-06-14 10:33:07:964] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
-[2023-06-14 10:33:07:964] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
-[2023-06-14 10:33:07:970] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 5 ms
-[2023-06-14 10:33:15:369] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - URL:http://localhost:8080/sentFreemarkerEmailAndSaveRedis;
-[2023-06-14 10:33:15:369] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:57) - HTTP_METHOD:POST;
-[2023-06-14 10:33:15:369] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:59) - IP:0:0:0:0:0:0:0:1;
-[2023-06-14 10:33:15:370] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:61) - CLASS_INFO:com.zhang.imall.controller.RedisController.sentFreemarkerEmailAndSaveRedis;
-[2023-06-14 10:33:15:370] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[null];
-[2023-06-14 10:33:15:391] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:25ms
-[2023-06-14 10:33:42:357] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - URL:http://localhost:8080/sentFreemarkerEmailAndSaveRedis;
-[2023-06-14 10:33:42:357] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:57) - HTTP_METHOD:POST;
-[2023-06-14 10:33:42:357] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:59) - IP:0:0:0:0:0:0:0:1;
-[2023-06-14 10:33:42:357] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:61) - CLASS_INFO:com.zhang.imall.controller.RedisController.sentFreemarkerEmailAndSaveRedis;
-[2023-06-14 10:33:42:357] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[2785015696@qq.com];
-[2023-06-14 10:33:48:021] [INFO] - org.redisson.Version.logVersion(Version.java:41) - Redisson 3.11.1
-[2023-06-14 10:33:49:080] [INFO] - org.redisson.connection.pool.ConnectionPool$1.lambda$run$0(ConnectionPool.java:168) - 1 connections initialized for 124.220.196.193/124.220.196.193:6379
-[2023-06-14 10:33:49:080] [INFO] - org.redisson.connection.pool.ConnectionPool$1.lambda$run$0(ConnectionPool.java:168) - 24 connections initialized for 124.220.196.193/124.220.196.193:6379
-[2023-06-14 10:33:49:196] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:6839ms
-[2023-06-14 10:33:49:197] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:76) - RESPONSE:{"status":10000,"msg":"SUCCESS","data":null}
-[2023-06-14 10:34:36:616] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - URL:http://localhost:8080/sentFreemarkerEmailAndSaveRedis;
-[2023-06-14 10:34:36:616] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:57) - HTTP_METHOD:POST;
-[2023-06-14 10:34:36:616] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:59) - IP:0:0:0:0:0:0:0:1;
-[2023-06-14 10:34:36:616] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:61) - CLASS_INFO:com.zhang.imall.controller.RedisController.sentFreemarkerEmailAndSaveRedis;
-[2023-06-14 10:34:36:616] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[2785015696@qq.com];
-[2023-06-14 10:34:42:135] [INFO] - org.redisson.Version.logVersion(Version.java:41) - Redisson 3.11.1
-[2023-06-14 10:34:42:199] [INFO] - org.redisson.connection.pool.ConnectionPool$1.lambda$run$0(ConnectionPool.java:168) - 1 connections initialized for 124.220.196.193/124.220.196.193:6379
-[2023-06-14 10:34:42:210] [INFO] - org.redisson.connection.pool.ConnectionPool$1.lambda$run$0(ConnectionPool.java:168) - 24 connections initialized for 124.220.196.193/124.220.196.193:6379
-[2023-06-14 10:34:42:262] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:5647ms
-[2023-06-14 10:34:42:265] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:76) - RESPONSE:{"status":10000,"msg":"SUCCESS","data":null}
-[2023-06-14 11:58:58:674] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - URL:http://localhost:8080/sentFreemarkerEmailAndSaveRedis;
-[2023-06-14 11:58:58:675] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:57) - HTTP_METHOD:POST;
-[2023-06-14 11:58:58:675] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:59) - IP:0:0:0:0:0:0:0:1;
-[2023-06-14 11:58:58:675] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:61) - CLASS_INFO:com.zhang.imall.controller.RedisController.sentFreemarkerEmailAndSaveRedis;
-[2023-06-14 11:58:58:675] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[2785015696@qq.com];
-[2023-06-14 11:59:04:298] [INFO] - org.redisson.Version.logVersion(Version.java:41) - Redisson 3.11.1
-[2023-06-14 11:59:04:373] [INFO] - org.redisson.connection.pool.ConnectionPool$1.lambda$run$0(ConnectionPool.java:168) - 24 connections initialized for 124.220.196.193/124.220.196.193:6379
-[2023-06-14 11:59:04:374] [INFO] - org.redisson.connection.pool.ConnectionPool$1.lambda$run$0(ConnectionPool.java:168) - 1 connections initialized for 124.220.196.193/124.220.196.193:6379
-[2023-06-14 11:59:04:427] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:5753ms
-[2023-06-14 11:59:04:431] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:76) - RESPONSE:{"status":10000,"msg":"SUCCESS","data":null}
-[2023-06-14 12:05:32:127] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
-[2023-06-14 12:05:36:227] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting ImallApplication on SMK with PID 21048 (D:\Projects\imall\target\classes started by 27850 in D:\Projects\imall)
-[2023-06-14 12:05:36:227] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
-[2023-06-14 12:05:36:789] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
-[2023-06-14 12:05:36:789] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
-[2023-06-14 12:05:36:805] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
-[2023-06-14 12:05:37:008] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[2023-06-14 12:05:37:336] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
-[2023-06-14 12:05:37:336] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
-[2023-06-14 12:05:37:336] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
-[2023-06-14 12:05:37:336] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
-[2023-06-14 12:05:37:398] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
-[2023-06-14 12:05:37:398] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1109 ms
-[2023-06-14 12:05:38:211] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-[2023-06-14 12:05:38:336] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
-[2023-06-14 12:05:38:679] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
-[2023-06-14 12:05:38:695] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
-[2023-06-14 12:05:38:711] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
-[2023-06-14 12:05:38:945] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: listUsingGET_1
-[2023-06-14 12:05:38:960] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: listUsingGET_2
-[2023-06-14 12:05:39:039] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
-[2023-06-14 12:05:39:054] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
-[2023-06-14 12:05:39:054] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started ImallApplication in 3.016 seconds (JVM running for 4.278)
-[2023-06-14 12:05:58:694] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
-[2023-06-14 12:05:58:695] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
-[2023-06-14 12:05:58:700] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 5 ms
-[2023-06-14 12:05:58:724] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - URL:http://localhost:8080/sentFreemarkerEmailAndSaveRedis;
-[2023-06-14 12:05:58:724] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:57) - HTTP_METHOD:POST;
-[2023-06-14 12:05:58:724] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:59) - IP:0:0:0:0:0:0:0:1;
-[2023-06-14 12:05:58:725] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:61) - CLASS_INFO:com.zhang.imall.controller.RedisController.sentFreemarkerEmailAndSaveRedis;
-[2023-06-14 12:05:58:725] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[2785015696@qq.com];
-[2023-06-14 12:05:58:825] [INFO] - org.redisson.Version.logVersion(Version.java:41) - Redisson 3.11.1
-[2023-06-14 12:06:00:055] [INFO] - org.redisson.connection.pool.ConnectionPool$1.lambda$run$0(ConnectionPool.java:168) - 1 connections initialized for 124.220.196.193/124.220.196.193:6379
-[2023-06-14 12:06:00:056] [INFO] - org.redisson.connection.pool.ConnectionPool$1.lambda$run$0(ConnectionPool.java:168) - 24 connections initialized for 124.220.196.193/124.220.196.193:6379
-[2023-06-14 12:06:10:141] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:11420ms
-[2023-06-14 12:06:10:156] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:76) - RESPONSE:{"status":10000,"msg":"SUCCESS","data":null}
-[2023-06-14 12:06:24:606] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - URL:http://localhost:8080/sentFreemarkerEmailAndSaveRedis;
-[2023-06-14 12:06:24:606] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:57) - HTTP_METHOD:POST;
-[2023-06-14 12:06:24:606] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:59) - IP:0:0:0:0:0:0:0:1;
-[2023-06-14 12:06:24:606] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:61) - CLASS_INFO:com.zhang.imall.controller.RedisController.sentFreemarkerEmailAndSaveRedis;
-[2023-06-14 12:06:24:607] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[2785015696@qq.com];
-[2023-06-14 12:06:24:623] [INFO] - org.redisson.Version.logVersion(Version.java:41) - Redisson 3.11.1
-[2023-06-14 12:06:24:694] [INFO] - org.redisson.connection.pool.ConnectionPool$1.lambda$run$0(ConnectionPool.java:168) - 1 connections initialized for 124.220.196.193/124.220.196.193:6379
-[2023-06-14 12:06:24:699] [INFO] - org.redisson.connection.pool.ConnectionPool$1.lambda$run$0(ConnectionPool.java:168) - 24 connections initialized for 124.220.196.193/124.220.196.193:6379
-[2023-06-14 12:06:24:721] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:115ms
-[2023-06-14 17:31:53:182] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting ImallApplication on SMK with PID 7056 (D:\Projects\imall\target\classes started by 27850 in D:\Projects\imall)
-[2023-06-14 17:31:53:206] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
-[2023-06-14 17:31:53:803] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
-[2023-06-14 17:31:53:806] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
-[2023-06-14 17:31:53:827] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
-[2023-06-14 17:31:54:048] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[2023-06-14 17:31:54:394] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
-[2023-06-14 17:31:54:399] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
-[2023-06-14 17:31:54:399] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
-[2023-06-14 17:31:54:400] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
-[2023-06-14 17:31:54:468] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
-[2023-06-14 17:31:54:469] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1232 ms
-[2023-06-14 17:31:55:349] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-[2023-06-14 17:31:55:458] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
-[2023-06-14 17:31:55:820] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
-[2023-06-14 17:31:55:831] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
-[2023-06-14 17:31:55:853] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
-[2023-06-14 17:31:56:097] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: listUsingGET_1
-[2023-06-14 17:31:56:111] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: listUsingGET_2
-[2023-06-14 17:31:56:155] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: sentFreemarkerEmailAndSaveRedisUsingPOST_1
-[2023-06-14 17:31:56:184] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
-[2023-06-14 17:31:56:196] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
-[2023-06-14 17:31:56:198] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started ImallApplication in 3.239 seconds (JVM running for 4.611)
-[2023-06-14 17:32:00:500] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
-[2023-06-14 17:32:00:500] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
-[2023-06-14 17:32:00:506] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 6 ms
-[2023-06-14 17:32:48:809] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - URL:http://localhost:8080/user/sentFreemarkerEmailAndSaveRedis;
-[2023-06-14 17:32:48:809] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:57) - HTTP_METHOD:POST;
-[2023-06-14 17:32:48:809] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:59) - IP:0:0:0:0:0:0:0:1;
-[2023-06-14 17:32:48:811] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:61) - CLASS_INFO:com.zhang.imall.controller.UserController.sentFreemarkerEmailAndSaveRedis;
-[2023-06-14 17:32:48:811] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[2785015696@qq.com];
-[2023-06-14 17:32:48:967] [INFO] - org.redisson.Version.logVersion(Version.java:41) - Redisson 3.11.1
-[2023-06-14 17:32:50:198] [INFO] - org.redisson.connection.pool.ConnectionPool$1.lambda$run$0(ConnectionPool.java:168) - 1 connections initialized for 124.220.196.193/124.220.196.193:6379
-[2023-06-14 17:32:50:198] [INFO] - org.redisson.connection.pool.ConnectionPool$1.lambda$run$0(ConnectionPool.java:168) - 24 connections initialized for 124.220.196.193/124.220.196.193:6379
-[2023-06-14 17:33:22:669] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:33863ms
-[2023-06-14 17:33:22:670] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:76) - RESPONSE:{"status":10000,"msg":"SUCCESS","data":null}
-[2023-06-14 17:34:12:099] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - URL:http://localhost:8080/user/sentFreemarkerEmailAndSaveRedis;
-[2023-06-14 17:34:12:099] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:57) - HTTP_METHOD:POST;
-[2023-06-14 17:34:12:099] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:59) - IP:0:0:0:0:0:0:0:1;
-[2023-06-14 17:34:12:100] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:61) - CLASS_INFO:com.zhang.imall.controller.UserController.sentFreemarkerEmailAndSaveRedis;
-[2023-06-14 17:34:12:100] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[2785015696@qq.comqq.com];
-[2023-06-14 17:34:12:114] [INFO] - org.redisson.Version.logVersion(Version.java:41) - Redisson 3.11.1
-[2023-06-14 17:34:12:184] [INFO] - org.redisson.connection.pool.ConnectionPool$1.lambda$run$0(ConnectionPool.java:168) - 1 connections initialized for 124.220.196.193/124.220.196.193:6379
-[2023-06-14 17:34:12:196] [INFO] - org.redisson.connection.pool.ConnectionPool$1.lambda$run$0(ConnectionPool.java:168) - 24 connections initialized for 124.220.196.193/124.220.196.193:6379
-[2023-06-14 17:34:36:560] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:24461ms
-[2023-06-14 17:34:36:561] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:76) - RESPONSE:{"status":10000,"msg":"SUCCESS","data":null}
-[2023-06-14 17:35:29:088] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - URL:http://localhost:8080/user/sentFreemarkerEmailAndSaveRedis;
-[2023-06-14 17:35:29:088] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:57) - HTTP_METHOD:POST;
-[2023-06-14 17:35:29:088] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:59) - IP:0:0:0:0:0:0:0:1;
-[2023-06-14 17:35:29:088] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:61) - CLASS_INFO:com.zhang.imall.controller.UserController.sentFreemarkerEmailAndSaveRedis;
-[2023-06-14 17:35:29:088] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[2785015696@qq.com];
-[2023-06-14 17:35:29:102] [INFO] - org.redisson.Version.logVersion(Version.java:41) - Redisson 3.11.1
-[2023-06-14 17:35:29:178] [INFO] - org.redisson.connection.pool.ConnectionPool$1.lambda$run$0(ConnectionPool.java:168) - 1 connections initialized for 124.220.196.193/124.220.196.193:6379
-[2023-06-14 17:35:29:188] [INFO] - org.redisson.connection.pool.ConnectionPool$1.lambda$run$0(ConnectionPool.java:168) - 24 connections initialized for 124.220.196.193/124.220.196.193:6379
-[2023-06-14 17:35:34:778] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:5690ms
-[2023-06-14 17:35:34:779] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:76) - RESPONSE:{"status":10000,"msg":"SUCCESS","data":null}
-[2023-06-14 17:52:03:513] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
-[2023-06-14 17:52:08:110] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting ImallApplication on SMK with PID 3372 (D:\Projects\imall\target\classes started by 27850 in D:\Projects\imall)
-[2023-06-14 17:52:08:112] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
-[2023-06-14 17:52:08:644] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
-[2023-06-14 17:52:08:646] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
-[2023-06-14 17:52:08:664] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
-[2023-06-14 17:52:08:866] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[2023-06-14 17:52:09:203] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
-[2023-06-14 17:52:09:210] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
-[2023-06-14 17:52:09:211] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
-[2023-06-14 17:52:09:211] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
-[2023-06-14 17:52:09:328] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
-[2023-06-14 17:52:09:329] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1189 ms
-[2023-06-14 17:52:10:189] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-[2023-06-14 17:52:10:295] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
-[2023-06-14 17:52:10:648] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
-[2023-06-14 17:52:10:658] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
-[2023-06-14 17:52:10:680] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
-[2023-06-14 17:52:10:923] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: listUsingGET_1
-[2023-06-14 17:52:10:937] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: listUsingGET_2
-[2023-06-14 17:52:10:982] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: sentFreemarkerEmailAndSaveRedisUsingPOST_1
-[2023-06-14 17:52:11:010] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
-[2023-06-14 17:52:11:023] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
-[2023-06-14 17:52:11:024] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started ImallApplication in 3.212 seconds (JVM running for 4.474)
-[2023-06-14 18:01:07:136] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
-[2023-06-14 18:01:11:081] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting ImallApplication on SMK with PID 9304 (D:\Projects\imall\target\classes started by 27850 in D:\Projects\imall)
-[2023-06-14 18:01:11:083] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
-[2023-06-14 18:01:11:633] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
-[2023-06-14 18:01:11:635] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
-[2023-06-14 18:01:11:653] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
-[2023-06-14 18:01:11:849] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[2023-06-14 18:01:12:166] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
-[2023-06-14 18:01:12:171] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
-[2023-06-14 18:01:12:171] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
-[2023-06-14 18:01:12:172] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
-[2023-06-14 18:01:12:233] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
-[2023-06-14 18:01:12:233] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1100 ms
-[2023-06-14 18:01:13:019] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-[2023-06-14 18:01:13:124] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
-[2023-06-14 18:01:13:474] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
-[2023-06-14 18:01:13:483] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
-[2023-06-14 18:01:13:502] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
-[2023-06-14 18:01:13:739] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: listUsingGET_1
-[2023-06-14 18:01:13:753] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: listUsingGET_2
-[2023-06-14 18:01:13:798] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: sentFreemarkerEmailAndSaveRedisUsingPOST_1
-[2023-06-14 18:01:13:828] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
-[2023-06-14 18:01:13:841] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
-[2023-06-14 18:01:13:843] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started ImallApplication in 2.971 seconds (JVM running for 4.202)
-[2023-06-14 18:01:24:920] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
-[2023-06-14 18:01:24:921] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
-[2023-06-14 18:01:24:927] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 6 ms
-[2023-06-14 18:02:54:438] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
-[2023-06-14 18:02:58:246] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting ImallApplication on SMK with PID 7448 (D:\Projects\imall\target\classes started by 27850 in D:\Projects\imall)
-[2023-06-14 18:02:58:268] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
-[2023-06-14 18:02:58:808] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
-[2023-06-14 18:02:58:811] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
-[2023-06-14 18:02:58:829] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
-[2023-06-14 18:02:59:030] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[2023-06-14 18:02:59:368] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
-[2023-06-14 18:02:59:373] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
-[2023-06-14 18:02:59:374] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
-[2023-06-14 18:02:59:374] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
-[2023-06-14 18:02:59:435] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
-[2023-06-14 18:02:59:435] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1142 ms
-[2023-06-14 18:03:00:231] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
-[2023-06-14 18:03:00:338] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
-[2023-06-14 18:03:00:681] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
-[2023-06-14 18:03:00:690] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
-[2023-06-14 18:03:00:710] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
-[2023-06-14 18:03:00:982] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: listUsingGET_1
-[2023-06-14 18:03:00:998] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: listUsingGET_2
-[2023-06-14 18:03:01:048] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: sentFreemarkerEmailAndSaveRedisUsingPOST_1
-[2023-06-14 18:03:01:076] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
-[2023-06-14 18:03:01:089] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
-[2023-06-14 18:03:01:091] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started ImallApplication in 3.033 seconds (JVM running for 4.237)
-[2023-06-14 18:03:04:248] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
-[2023-06-14 18:03:04:248] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
-[2023-06-14 18:03:04:254] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 6 ms
-[2023-06-14 18:03:25:696] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - URL:http://localhost:8080/user/checkEmailAndVerificationCode;
-[2023-06-14 18:03:25:696] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:57) - HTTP_METHOD:POST;
-[2023-06-14 18:03:25:696] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:59) - IP:0:0:0:0:0:0:0:1;
-[2023-06-14 18:03:25:697] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:61) - CLASS_INFO:com.zhang.imall.controller.UserController.checkEmailAndVerificationCode;
-[2023-06-14 18:03:25:698] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[2785015696@qq.com, 1233355];
-[2023-06-14 18:03:25:802] [INFO] - org.redisson.Version.logVersion(Version.java:41) - Redisson 3.11.1
-[2023-06-14 18:03:26:997] [INFO] - org.redisson.connection.pool.ConnectionPool$1.lambda$run$0(ConnectionPool.java:168) - 1 connections initialized for 124.220.196.193/124.220.196.193:6379
-[2023-06-14 18:03:26:998] [INFO] - org.redisson.connection.pool.ConnectionPool$1.lambda$run$0(ConnectionPool.java:168) - 24 connections initialized for 124.220.196.193/124.220.196.193:6379
-[2023-06-14 18:03:27:069] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:1376ms
-[2023-06-14 18:03:27:070] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:76) - RESPONSE:{"status":10081,"msg":"验证码错误，请检查后重试","data":null}
-[2023-06-14 18:03:44:251] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - URL:http://localhost:8080/sentFreemarkerEmailAndSaveRedis;
-[2023-06-14 18:03:44:252] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:57) - HTTP_METHOD:POST;
-[2023-06-14 18:03:44:252] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:59) - IP:0:0:0:0:0:0:0:1;
-[2023-06-14 18:03:44:252] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:61) - CLASS_INFO:com.zhang.imall.controller.RedisController.sentFreemarkerEmailAndSaveRedis;
-[2023-06-14 18:03:44:252] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[2785015696@qq.com];
-[2023-06-14 18:03:44:269] [INFO] - org.redisson.Version.logVersion(Version.java:41) - Redisson 3.11.1
-[2023-06-14 18:03:44:337] [INFO] - org.redisson.connection.pool.ConnectionPool$1.lambda$run$0(ConnectionPool.java:168) - 1 connections initialized for 124.220.196.193/124.220.196.193:6379
-[2023-06-14 18:03:44:348] [INFO] - org.redisson.connection.pool.ConnectionPool$1.lambda$run$0(ConnectionPool.java:168) - 24 connections initialized for 124.220.196.193/124.220.196.193:6379
-[2023-06-14 18:03:49:986] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:5735ms
-[2023-06-14 18:03:49:987] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:76) - RESPONSE:{"status":10000,"msg":"SUCCESS","data":null}
-[2023-06-14 18:03:55:339] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - URL:http://localhost:8080/user/checkEmailAndVerificationCode;
-[2023-06-14 18:03:55:340] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:57) - HTTP_METHOD:POST;
-[2023-06-14 18:03:55:340] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:59) - IP:0:0:0:0:0:0:0:1;
-[2023-06-14 18:03:55:340] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:61) - CLASS_INFO:com.zhang.imall.controller.UserController.checkEmailAndVerificationCode;
-[2023-06-14 18:03:55:340] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[2785015696@qq.com, 1233355];
-[2023-06-14 18:03:55:354] [INFO] - org.redisson.Version.logVersion(Version.java:41) - Redisson 3.11.1
-[2023-06-14 18:03:55:424] [INFO] - org.redisson.connection.pool.ConnectionPool$1.lambda$run$0(ConnectionPool.java:168) - 1 connections initialized for 124.220.196.193/124.220.196.193:6379
-[2023-06-14 18:03:55:428] [INFO] - org.redisson.connection.pool.ConnectionPool$1.lambda$run$0(ConnectionPool.java:168) - 24 connections initialized for 124.220.196.193/124.220.196.193:6379
-[2023-06-14 18:03:55:485] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:146ms
-[2023-06-14 18:03:55:486] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:76) - RESPONSE:{"status":10081,"msg":"验证码错误，请检查后重试","data":null}
-[2023-06-14 18:04:24:109] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - URL:http://localhost:8080/user/checkEmailAndVerificationCode;
-[2023-06-14 18:04:24:109] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:57) - HTTP_METHOD:POST;
-[2023-06-14 18:04:24:109] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:59) - IP:0:0:0:0:0:0:0:1;
-[2023-06-14 18:04:24:109] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:61) - CLASS_INFO:com.zhang.imall.controller.UserController.checkEmailAndVerificationCode;
-[2023-06-14 18:04:24:109] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[2785015696@qq.com, 233663];
-[2023-06-14 18:04:24:116] [INFO] - org.redisson.Version.logVersion(Version.java:41) - Redisson 3.11.1
-[2023-06-14 18:04:24:177] [INFO] - org.redisson.connection.pool.ConnectionPool$1.lambda$run$0(ConnectionPool.java:168) - 1 connections initialized for 124.220.196.193/124.220.196.193:6379
-[2023-06-14 18:04:24:189] [INFO] - org.redisson.connection.pool.ConnectionPool$1.lambda$run$0(ConnectionPool.java:168) - 24 connections initialized for 124.220.196.193/124.220.196.193:6379
-[2023-06-14 18:04:24:245] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:136ms
-[2023-06-14 18:04:24:248] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:76) - RESPONSE:{"status":10000,"msg":"SUCCESS","data":null}
-[2023-06-14 18:08:45:059] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - URL:http://localhost:8080/user/checkEmailAndVerificationCode;
-[2023-06-14 18:08:45:060] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:57) - HTTP_METHOD:POST;
-[2023-06-14 18:08:45:060] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:59) - IP:0:0:0:0:0:0:0:1;
-[2023-06-14 18:08:45:060] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:61) - CLASS_INFO:com.zhang.imall.controller.UserController.checkEmailAndVerificationCode;
-[2023-06-14 18:08:45:060] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[2785015696@qq.com, 233663];
-[2023-06-14 18:08:45:067] [INFO] - org.redisson.Version.logVersion(Version.java:41) - Redisson 3.11.1
-[2023-06-14 18:08:45:155] [INFO] - org.redisson.connection.pool.ConnectionPool$1.lambda$run$0(ConnectionPool.java:168) - 1 connections initialized for 124.220.196.193/124.220.196.193:6379
-[2023-06-14 18:08:45:157] [INFO] - org.redisson.connection.pool.ConnectionPool$1.lambda$run$0(ConnectionPool.java:168) - 24 connections initialized for 124.220.196.193/124.220.196.193:6379
-[2023-06-14 18:08:45:197] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:138ms
-[2023-06-14 18:08:45:198] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:76) - RESPONSE:{"status":10081,"msg":"验证码错误，请检查后重试","data":null}
+[2023-07-06 10:27:57:948] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting ImallApplication on SMK with PID 18708 (D:\Projects\imall\target\classes started by 27850 in D:\Projects\imall)
+[2023-07-06 10:27:57:952] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[2023-07-06 10:27:58:576] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2023-07-06 10:27:58:579] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[2023-07-06 10:27:58:601] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+[2023-07-06 10:27:58:803] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-07-06 10:27:59:165] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[2023-07-06 10:27:59:171] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[2023-07-06 10:27:59:172] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2023-07-06 10:27:59:172] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2023-07-06 10:27:59:240] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2023-07-06 10:27:59:241] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1257 ms
+[2023-07-06 10:28:00:119] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2023-07-06 10:28:00:229] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[2023-07-06 10:28:00:587] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[2023-07-06 10:28:00:599] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[2023-07-06 10:28:00:620] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[2023-07-06 10:28:00:864] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: listUsingGET_1
+[2023-07-06 10:28:00:877] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: listUsingGET_2
+[2023-07-06 10:28:00:923] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: sentFreemarkerEmailAndSaveRedisUsingPOST_1
+[2023-07-06 10:28:00:964] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[2023-07-06 10:28:00:978] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[2023-07-06 10:28:00:980] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started ImallApplication in 3.291 seconds (JVM running for 4.656)
+[2023-07-06 10:28:09:857] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-07-06 10:28:09:857] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[2023-07-06 10:28:09:864] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 7 ms
+[2023-07-06 10:28:09:884] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - URL:http://localhost:8080/user/springCookieLogin;
+[2023-07-06 10:28:09:884] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:57) - HTTP_METHOD:POST;
+[2023-07-06 10:28:09:884] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:59) - IP:0:0:0:0:0:0:0:1;
+[2023-07-06 10:28:09:885] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:61) - CLASS_INFO:com.zhang.imall.controller.UserController.springCookieLogin;
+[2023-07-06 10:28:09:885] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[张贺文01, 123456789, org.apache.catalina.connector.ResponseFacade@2041708a];
+[2023-07-06 10:28:09:909] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - i_mall - Starting...
+[2023-07-06 10:28:10:683] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - i_mall - Start completed.
+[2023-07-06 10:28:10:752] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:871ms
+[2023-07-06 10:30:44:423] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[2023-07-06 10:30:44:439] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - i_mall - Shutdown initiated...
+[2023-07-06 10:30:44:446] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - i_mall - Shutdown completed.
+[2023-07-06 10:30:48:510] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting ImallApplication on SMK with PID 20112 (D:\Projects\imall\target\classes started by 27850 in D:\Projects\imall)
+[2023-07-06 10:30:48:534] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[2023-07-06 10:30:49:048] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2023-07-06 10:30:49:051] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[2023-07-06 10:30:49:067] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+[2023-07-06 10:30:49:265] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-07-06 10:30:49:596] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[2023-07-06 10:30:49:602] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[2023-07-06 10:30:49:603] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2023-07-06 10:30:49:603] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2023-07-06 10:30:49:667] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2023-07-06 10:30:49:668] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1108 ms
+[2023-07-06 10:30:50:502] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2023-07-06 10:30:50:610] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[2023-07-06 10:30:50:953] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:160) - Context refreshed
+[2023-07-06 10:30:50:963] [INFO] - springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:163) - Found 1 custom documentation plugin(s)
+[2023-07-06 10:30:50:983] [INFO] - springfox.documentation.spring.web.scanners.ApiListingReferenceScanner.scan(ApiListingReferenceScanner.java:41) - Scanning for api listing references
+[2023-07-06 10:30:51:215] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: listUsingGET_1
+[2023-07-06 10:30:51:228] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: listUsingGET_2
+[2023-07-06 10:30:51:274] [INFO] - springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator.startingWith(CachingOperationNameGenerator.java:40) - Generating unique operation named: sentFreemarkerEmailAndSaveRedisUsingPOST_1
+[2023-07-06 10:30:51:314] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8080"]
+[2023-07-06 10:30:51:327] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:204) - Tomcat started on port(s): 8080 (http) with context path ''
+[2023-07-06 10:30:51:328] [INFO] - org.springframework.boot.StartupInfoLogger.logStarted(StartupInfoLogger.java:61) - Started ImallApplication in 3.005 seconds (JVM running for 4.206)
+[2023-07-06 10:31:01:930] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2023-07-06 10:31:01:930] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+[2023-07-06 10:31:01:936] [INFO] - org.springframework.web.servlet.FrameworkServlet.initServletBean(FrameworkServlet.java:547) - Completed initialization in 6 ms
+[2023-07-06 10:31:01:955] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:55) - URL:http://localhost:8080/user/springCookieLogin;
+[2023-07-06 10:31:01:955] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:57) - HTTP_METHOD:POST;
+[2023-07-06 10:31:01:955] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:59) - IP:0:0:0:0:0:0:0:1;
+[2023-07-06 10:31:01:956] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:61) - CLASS_INFO:com.zhang.imall.controller.UserController.springCookieLogin;
+[2023-07-06 10:31:01:956] [INFO] - com.zhang.imall.filter.WebLogAspect.doBefore(WebLogAspect.java:63) - ARGS:[张贺文01, 123456789, org.apache.catalina.connector.ResponseFacade@7c596496];
+[2023-07-06 10:31:01:976] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:110) - i_mall - Starting...
+[2023-07-06 10:31:02:636] [INFO] - com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:123) - i_mall - Start completed.
+[2023-07-06 10:31:02:679] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfter(WebLogAspect.java:82) - TIME_CONSUMING:727ms
+[2023-07-06 10:31:02:694] [INFO] - com.zhang.imall.filter.WebLogAspect.doAfterReturning(WebLogAspect.java:76) - RESPONSE:{"status":10000,"msg":"SUCCESS","data":{"id":18,"username":"张贺文01","password":null,"personalizedSignature":"12345666","role":1,"createTime":1661148938000,"updateTime":1686037655000,"email":"21111"}}
+[2023-07-06 10:46:02:389] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[2023-07-06 10:46:02:401] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:350) - i_mall - Shutdown initiated...
+[2023-07-06 10:46:02:408] [INFO] - com.zaxxer.hikari.HikariDataSource.close(HikariDataSource.java:352) - i_mall - Shutdown completed.
+[2023-07-06 10:46:09:131] [INFO] - org.springframework.boot.StartupInfoLogger.logStarting(StartupInfoLogger.java:55) - Starting ImallApplication on SMK with PID 3056 (D:\Projects\imall\target\classes started by 27850 in D:\Projects\imall)
+[2023-07-06 10:46:09:133] [INFO] - org.springframework.boot.SpringApplication.logStartupProfileInfo(SpringApplication.java:651) - No active profile set, falling back to default profiles: default
+[2023-07-06 10:46:09:702] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected(RepositoryConfigurationDelegate.java:246) - Multiple Spring Data modules found, entering strict repository configuration mode!
+[2023-07-06 10:46:09:705] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:126) - Bootstrapping Spring Data repositories in DEFAULT mode.
+[2023-07-06 10:46:09:727] [INFO] - org.springframework.data.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn(RepositoryConfigurationDelegate.java:184) - Finished Spring Data repository scanning in 9ms. Found 0 repository interfaces.
+[2023-07-06 10:46:09:952] [INFO] - org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization(PostProcessorRegistrationDelegate.java:330) - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2023-07-06 10:46:10:267] [INFO] - org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:92) - Tomcat initialized with port(s): 8080 (http)
+[2023-07-06 10:46:10:273] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8080"]
+[2023-07-06 10:46:10:273] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting service [Tomcat]
+[2023-07-06 10:46:10:274] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.27]
+[2023-07-06 10:46:10:337] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+[2023-07-06 10:46:10:337] [INFO] - org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.prepareWebApplicationContext(ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 1177 ms
+[2023-07-06 10:46:11:263] [INFO] - springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping.initHandlerMethods(PropertySourcedRequestMappingHandlerMapping.java:69) - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+[2023-07-06 10:46:11:376] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.initialize(ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+[2023-07-06 10:46:11:760] [INFO] - io.lettuce.core.EpollProvider.<clinit>(EpollProvider.java:68) - Starting without optional epoll library
+[2023-07-06 10:46:11:761] [INFO] - io.lettuce.core.KqueueProvider.<clinit>(KqueueProvider.java:70) - Starting without optional kqueue library
+[2023-07-06 10:46:14:574] [WARN] - org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:558) - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'enableRedisKeyspaceNotificationsInitializer' defined in class path resource [org/springframework/boot/autoconfigure/session/RedisSessionConfiguration$SpringBootRedisHttpSessionConfiguration.class]: Invocation of init method failed; nested exception is org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 124.220.196.193:6379
+[2023-07-06 10:46:14:575] [INFO] - org.springframework.scheduling.concurrent.ExecutorConfigurationSupport.shutdown(ExecutorConfigurationSupport.java:208) - Shutting down ExecutorService 'applicationTaskExecutor'
+[2023-07-06 10:46:14:694] [INFO] - org.apache.juli.logging.DirectJDKLog.log(DirectJDKLog.java:173) - Stopping service [Tomcat]

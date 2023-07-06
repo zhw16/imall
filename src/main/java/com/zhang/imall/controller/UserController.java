@@ -14,6 +14,8 @@ import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
+import javax.servlet.http.Cookie;
+import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 /**
@@ -204,6 +206,7 @@ public class UserController {
 
 
     /**
+     * 验证码保存到redis,进行验证码和邮箱的校验
      * 验证Email和验证码的匹配程度
      * @param email
      * @param verificationCode
@@ -218,5 +221,51 @@ public class UserController {
             return ApiRestResponse.error(ImallExceptionEnum.EMAIL_CHECKED_ERROR, "验证码错误，请检查后重试");
         }
         return ApiRestResponse.success();
+    }
+
+
+
+    /**
+     * 用户登录界面,使用spring Session
+     *
+     * @param username 用户名
+     * @param password 密码
+     * @param session  使用session保存用户登录信息
+     * @return 状态码，和状态信息
+     */
+    @ApiOperation("登录接口")
+    @PostMapping("/springSessionLogin")
+    @ResponseBody
+    public ApiRestResponse springSessionLogin(@RequestParam("username") String username, @RequestParam("password") String password,HttpSession session)  {
+        User user = userService.login(username, password);
+        //返回用户信息时，不保存密码
+        user.setPassword(null);
+        //将用户信息，除了密码保存到session
+        session.setAttribute(Constant.IMALL_USER, user);
+        //过期时间60s
+        session.setMaxInactiveInterval(60);
+        //返回的带上结果信息
+        return ApiRestResponse.success(user);
+    }
+
+    /**
+     * 用户登录界面,使用cookie
+     *
+     * @param username 用户名
+     * @param password 密码
+     * @return 状态码，和状态信息
+     */
+    @ApiOperation("登录接口")
+    @PostMapping("/springCookieLogin")
+    @ResponseBody
+    public ApiRestResponse springCookieLogin(@RequestParam("username") String username, @RequestParam("password") String password, HttpServletResponse response)  {
+        User user = userService.login(username, password);
+        //返回用户信息时，不保存密码
+        user.setPassword(null);
+        //将用户信息，除了密码保存到cookie
+        Cookie cookie = new Cookie(Constant.IMALL_USER,user.getUsername());
+        response.addCookie(cookie);
+        //返回的带上结果信息
+        return ApiRestResponse.success(user);
     }
 }
