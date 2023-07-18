@@ -22,4 +22,9 @@ public interface ExcelService {
      * @return
      */
     List<User> analysisPathFile(String pathName);
+
+    /**
+     * 给中文名称创建英文首字母
+     */
+    void createUserName();
 }

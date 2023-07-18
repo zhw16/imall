@@ -125,4 +125,18 @@ public class ExcelController {
 
 
 
+
+
+
+    /**
+     * 使用数据库首字母小写创建账号
+     *
+     * @return 使用数据库首字母小写创建账号
+     */
+    @PostMapping("/excel/createUserName")
+    @ApiOperation("使用表格首字母小写创建账号")
+    public ApiRestResponse createUserName() {
+        excelService.createUserName();
+        return ApiRestResponse.success();
+    }
 }
