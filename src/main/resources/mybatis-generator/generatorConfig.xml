@@ -85,7 +85,7 @@
         <!--               enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false"-->
         <!--               selectByExampleQueryId="false">-->
         <!--        </table>  -->
-        <table tableName="table_name" domainObjectName="TableName" enableCountByExample="false"
+        <table tableName="i_mall_scheduled" domainObjectName="Scheduled" enableCountByExample="false"
                enableUpdateByExample="false" enableDeleteByExample="false" enableSelectByExample="false"
                selectByExampleQueryId="false">
         </table>

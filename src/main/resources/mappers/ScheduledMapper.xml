@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhang.imall.model.dao.ScheduledMapper">
+  <resultMap id="BaseResultMap" type="com.zhang.imall.model.pojo.Scheduled">
+    <id column="cron_id" jdbcType="VARCHAR" property="cronId" />
+    <result column="cron_name" jdbcType="VARCHAR" property="cronName" />
+    <result column="cron" jdbcType="VARCHAR" property="cron" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    cron_id, cron_name, cron
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from i_mall_scheduled
+    where cron_id = #{cronId,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from i_mall_scheduled
+    where cron_id = #{cronId,jdbcType=VARCHAR}
+  </delete>
+  <insert id="insert" parameterType="com.zhang.imall.model.pojo.Scheduled">
+    insert into i_mall_scheduled (cron_id, cron_name, cron
+      )
+    values (#{cronId,jdbcType=VARCHAR}, #{cronName,jdbcType=VARCHAR}, #{cron,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.zhang.imall.model.pojo.Scheduled">
+    insert into i_mall_scheduled
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="cronId != null">
+        cron_id,
+      </if>
+      <if test="cronName != null">
+        cron_name,
+      </if>
+      <if test="cron != null">
+        cron,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="cronId != null">
+        #{cronId,jdbcType=VARCHAR},
+      </if>
+      <if test="cronName != null">
+        #{cronName,jdbcType=VARCHAR},
+      </if>
+      <if test="cron != null">
+        #{cron,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.zhang.imall.model.pojo.Scheduled">
+    update i_mall_scheduled
+    <set>
+      <if test="cronName != null">
+        cron_name = #{cronName,jdbcType=VARCHAR},
+      </if>
+      <if test="cron != null">
+        cron = #{cron,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where cron_id = #{cronId,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.zhang.imall.model.pojo.Scheduled">
+    update i_mall_scheduled
+    set cron_name = #{cronName,jdbcType=VARCHAR},
+      cron = #{cron,jdbcType=VARCHAR}
+    where cron_id = #{cronId,jdbcType=VARCHAR}
+  </update>
+</mapper>

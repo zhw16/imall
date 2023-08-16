@@ -42,29 +42,32 @@ public class WebLogAspect {
     @Before("webLog()")
     public void doBefore(JoinPoint joinPoint) {
         // 开始时间
-        startTime =System.currentTimeMillis();
+        startTime = System.currentTimeMillis();
         //收到请求，记录请求内容
         ServletRequestAttributes attributes = (ServletRequestAttributes) RequestContextHolder.getRequestAttributes();
-        HttpServletRequest request = attributes.getRequest();//得到请求对象
-        User currentUser = (User) request.getSession().getAttribute(Constant.IMALL_USER);
-        //日志打印url信息
-        if (currentUser!=null) {
-            log.info("CURRENT_USER:"+currentUser.getUsername()+";");
+        if (attributes != null) {
+            HttpServletRequest request = attributes.getRequest();//得到请求对象
+            User currentUser = (User) request.getSession().getAttribute(Constant.IMALL_USER);
+            //日志打印url信息
+            if (currentUser != null) {
+                log.info("CURRENT_USER:" + currentUser.getUsername() + ";");
+            }
+            //在log文件中打印url的信息
+            log.info("URL:" + request.getRequestURL().toString() + ";");
+            //打印请求的类型
+            log.info("HTTP_METHOD:" + request.getMethod() + ";");
+            //拿到IP信息
+            log.info("IP:" + request.getRemoteAddr() + ";");
+            //getDeclaringTypeName，打印类的一些信息；getName():签名信息；
+            log.info("CLASS_INFO:" + joinPoint.getSignature().getDeclaringTypeName() + "." + joinPoint.getSignature().getName() + ";");
+            //获得参数信息
+            log.info("ARGS:" + Arrays.toString(joinPoint.getArgs()) + ";");
         }
-        //在log文件中打印url的信息
-        log.info("URL:" + request.getRequestURL().toString() + ";");
-        //打印请求的类型
-        log.info("HTTP_METHOD:" + request.getMethod() + ";");
-        //拿到IP信息
-        log.info("IP:" + request.getRemoteAddr() + ";");
-        //getDeclaringTypeName，打印类的一些信息；getName():签名信息；
-        log.info("CLASS_INFO:" + joinPoint.getSignature().getDeclaringTypeName() + "." + joinPoint.getSignature().getName() + ";");
-        //获得参数信息
-        log.info("ARGS:" + Arrays.toString(joinPoint.getArgs()) + ";");
     }
 
     /**
      * 处理完请求，返回对象
+     *
      * @param res 返回的内容
      * pointcut 拦截点
      */
