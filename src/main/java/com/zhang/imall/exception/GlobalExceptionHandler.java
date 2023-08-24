@@ -38,13 +38,13 @@ public class GlobalExceptionHandler {
     }
 
     /**
-     * 拦截 @ExceptionHandler(ImallException.class) 业务上的异常
+     * 拦截 @ExceptionHandler(Exception.class) 业务上的异常
      * @param e 传递进来自定义的的业务上ImallException.error的异常，不敏感的数据异常
      * @return
      */
     @ExceptionHandler(ImallException.class)
     @ResponseBody
-    public Object handlerImallException(ImallException e) {
+    public Object handlerZhangException(ImallException e) {
         //传进来的错误信息，log记录一下
         log.error("Imall Exception", e);
         //进行异常的统一，不进行具体原因的展示
