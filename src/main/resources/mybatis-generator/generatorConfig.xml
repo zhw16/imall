@@ -9,7 +9,7 @@
     <!-- 配置文件，放在resource目录下即可 -->
     <!--数据库驱动个人配置-->
     <!--    <classPathEntry location="D:/Program Files/Maven/maven-repository/mysql/mysql-connector-java/8.0.18/mysql-connector-java-8.0.18.jar"/>-->
-    <classPathEntry location="${driverLocation}"/>
+    <classPathEntry location="${spring.datasource.driverLocation}"/>
     <context id="MysqlTables" targetRuntime="MyBatis3">
         <property name="autoDelimitKeywords" value="true"/>
         <!--可以使用``包括字段名，避免字段名与sql保留字冲突报错-->

@@ -21,7 +21,7 @@ public class CachingConfig {
     public RedisCacheManager redisCacheManager(RedisConnectionFactory connectionFactory) {
         RedisCacheWriter redisCacheWriter = RedisCacheWriter.lockingRedisCacheWriter(connectionFactory);
         RedisCacheConfiguration cacheConfiguration = RedisCacheConfiguration.defaultCacheConfig();
-        //30秒销毁cache
+        //10秒销毁cache
         cacheConfiguration = cacheConfiguration.entryTtl(Duration.ofSeconds(10));
         return new RedisCacheManager(redisCacheWriter, cacheConfiguration);
     }

@@ -29,7 +29,7 @@ public class ScheduleController {
     private FreeMarkerConfigurer freeMarkerConfigurer;
     @ApiOperation("测试定时任务")
     @GetMapping("/schedule/testSchedule")
-    @Scheduled(cron = "0/10 * * * * ? " )
+    @Scheduled(cron = "0 0/10 * * *  ? " )
     public void testScheduleTask() {
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         System.out.println("执行任务"+simpleDateFormat.format(new Date()));

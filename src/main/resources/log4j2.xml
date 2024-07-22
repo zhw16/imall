@@ -4,7 +4,7 @@
 
         <!--    <Property name="baseDir" value="${sys:user.home}/logs"/>-->
         <!--        设置日志文件的文件夹-->
-        <Property name="baseDir" value="D:\Projects\imall\imallLog"/>
+        <Property name="baseDir" value="MyLogs"/>
     </Properties>
 
     <Appenders>

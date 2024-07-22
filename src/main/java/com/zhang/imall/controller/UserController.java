@@ -61,7 +61,7 @@ public class UserController {
         if (StringUtils.isEmpty(username)) {//用户名为空
             return ApiRestResponse.error(ImallExceptionEnum.NEED_USER_NAME);
         } else if (StringUtils.isEmpty(password)) {//密码不为空
-            return ApiRestResponse.error(ImallExceptionEnum.NEED_USER_PASSWORD);
+            return ApiRestResponse.error(ImallExceptionEnum.NEED_USER_PASSWORD,"fhsiajhfkjkkjasjh.");
         }
         User user = userService.login(username, password);
         //返回用户信息时，不保存密码
